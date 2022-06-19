@@ -1,0 +1,788 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &146525282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 146525285}
+  - component: {fileID: 146525284}
+  - component: {fileID: 146525283}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &146525283
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146525282}
+  m_Enabled: 1
+--- !u!20 &146525284
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146525282}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &146525285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146525282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &924815509
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381941, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 723.8746
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381941, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 884.0873
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381941, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.7748
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381941, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -240.88383
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381942, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Text
+      value: "Ioan Slavici (1848-1925). Este unul dintre cei mai mari scrii-tori
+        ardeleni si clasic al literaturii romane alaturi de Eminescu, Creanga, Caragiale.
+        S-a nascut la Siria, a studiat la Berlin si Viena fara a-si finaliza studiile
+        . A colaborat la revista \xAB Convorbiri literare \xBB condusa de Titu Maiorescu
+        si la ziarul \xAB Timpul \xBB din Bucuresti. Opera : a scris nuvele adunate-n
+        diferite volume (nuvele din popor), amintiri (\xAB Inchisorile mele \xBB,
+        \xAB Lumea prin care am trecut\xBB), romanul \xAB Mara \xBB. A infintat revista
+        \xAB Vatra\xBB impreuna cu George Cosbuc si I.L.Caragiale. O mare valoare
+        literara a reprezentat nuvela \xAB Moara cu noroc \xBB in care este oglindita
+        societatea ardeleneasca de la sfarsitul secolului al XIX-lea si incepand
+        cu secolul al XX-lea avand ca tema dezumanizarea prin inabutire. Nuvela este
+        creatie epica culta, in proza de intindere medie, mai mica decat romanul
+        dar mai mare decat schita sau povestirea cu un singur fir epic si numar redus
+        de personaje. Accentul este pus pe trasaturile personajului si pe evolutia
+        acestuia. Actiunea poate fii impartita pe momente ale subiectului, perspectiva
+        narativa se caracterizeaza de obicei prin naratiune la persoana a III-a,
+        naratorul find omniscient si omniprezent. Exista mai multe tipuri de nuvele,
+        acestea se caracterizeaza dupa tematica : istorice, psihologice, naturaliste.
+        In functie de curentul literar caruia le apartin, nuvelele pot fii romantice,
+        realiste, poporaniste, etc. \xAB Moara cu noroc \xBB este o nuvele realista,
+        psihologica, prezentand aspecte din societatea ardeleneasca de la inceputul
+        secolului al XX-lea, in acelasi timp accentul este pus pe analiza\r\n\r\npsihologica
+        a personajului principal care se degradeaza sub puterea banului. Nuvele moara
+        cu noroc de Ioan Slavici a aparut in volumul de debut \xAB Novele din popor\xBB,
+        din 1881 si s-a bucurat de o larga apreciere critica. Ioan Slavici construieste
+        o opera literara bazata pe cunoasterea sufletului omenesc, cu un puternic
+        caracter moralizator conceptia lui fiind un argument pentru iubirea de oameni.
+        Compozitia si structura nuvelei Nuvela este realista, de factura clasica,
+        avand o structura viguroasa unde fiecare episod aduce elemente esentiale
+        si absolut necesare pentru firul epic, conflictul se desfasoara liniar si
+        ascendent, faptele fiind distribuite in cele 17 capitole respectanduse ordinea
+        cronologica a desfasuririi actiunii si sunt integrate de cuvintele rostite
+        de batrana la inceputul si finalul operei : \xAB omul sa fie multumit cu
+        saracia sa, caci, daca e vorba, nu bogatia ci linistea colibei tale te face
+        fericit \xBB si \xAB -Se vede c-au lasat ferestrele deschise [\u2026] Simteam
+        eu ca nu are sa iasa bine; dar asa le-a fost dat \xBB. Conflictul social
+        si psihologic se desfasoara intre aceste doua planuri etice, reliefand un
+        destin tragic previzibil aflat in chiar profunzimile sufletului omenesc.
+        Constructia subiectului Actiunea nuvelei se defineste printr-o constructie
+        epica riguroasa, un singur plan narativ, care se refera la dezumanizarea
+        lui Ghita din cauza lacomiei pentru bani, o intriga bine evidentiata bazata
+        pe valorile morale si setea nestapanita de imbogatire, in cadrul careia se
+        manifesta un conflict interior (psihologic) si unul exterior (social). Conflicte
+        : intre Ghita si Lica Samadaul, intre Ghita si Ana, intre Lica Samadaul si
+        arendas, intre Lica si Pintea. Perspectiva narativa este prezentata de naratorul
+        omniscient si omniprezent si de naratiunea la persoana aIII-a a unor fapte
+        verosimile, la care participa personaje putine, dar constituie solid, cu
+        puternice trasaturui de caracter motivate de firea si structura morala a
+        fiecaruia dintre ele. Modalitate narativa se remarca, deci prin absenta marcilor
+        formate ale naratorului, de unde reiese distantarea acestuia de evenimente.
+        Tema o constituie consecintele nefaste pe care lacomia pentru bani o exercita
+        asupra individului, hotarandu-i destinul pe masura\r\n\r\nabaterilor de la
+        principile etice fundamentale ale sufletului omenesc. La baza ei se afla
+        convingerea autorului ca goana dupa bani zdruncina tihna si amaraste viata
+        omului, genereaza numeroase rele, iar in cele din urma duce la pierzanie.
+        Incipitul nuvelei il constituie faptul ce se va dovedi providential, rostit
+        de batrana soacra a lui Ghita, atunci cand afla de intentia ginerului de
+        a lua in arenda hanul \xAB Moara cu noroc \xBB : \xAB - Omul sa fie multumit
+        cu saracia sa, caci, daca e vorba, nu bogatia, ci linistea colibei tale te
+        face fericit \xBB. Momentele subiectului : Expozitiunea Cizmar de meserie,
+        Ghita se saturase sa carpeasca \xAB cizmele oamenilor \xBB, mai ales ca acestia
+        obisnuiau sa umble \xAB toata saptamana in opinci ori desculti, iar daca
+        Dumineca e noroi, isi duc cizmele in mana pana la biserica \xBB. Relatiile
+        temporale si spatiale : Spatiul actiunii este real, o zona geografica din
+        Ardeal, la hanul Moara cu noroc, aflat la o rascruce pe unde treceau turme
+        de porci spre si dinspre Ineu, loc important pentru afaceri si comert. Mutandu-se
+        la Moara cu noroc cu sotia, soacra si cei doi copii, Ghita devine repede
+        cunoscut de \xAB drumetii mai umblati \xBB, afacerile mergeau bine. Ana este
+        \xAB tanara si frumoasa \xBB, \xAB frageda si subtirica \xBB, \xAB spintena
+        si mladinoasa \xBB il iubea pe barbatul ei, \xAB inalt si spatos \xBB , se
+        intelegeau bine si erau fericiti. Porcarii cu apucaturi primitive, fiorosi
+        la infatisare, banditii, stapani de turme sau hotii si ucigasii platiti,
+        alcatuiesc lumea ce se perinda pe la Moara cu noroc. Intriga : Incepe odata
+        cu aparitia la han a lui Lica Samadaul, un simbol al raului , despre care
+        Ghita aflase ca, desi \xAB tot porcar si el\xBB, estye \xAB om cu stare,
+        care poate sa plateasca grasunii pierduti ori pe cei furati \xBB. De frica
+        lui Lica \xAB tremura toata lunca \xBB, deoarece era \xAB om aspru si neindurat
+        \xBB, care stia toate infundaturile, cunostea pe toti oamenii buni, dar \xAB
+        mai ales pe cei rai\xBB. Porcar priceput, el recunostea \xAB urechea grasunului
+        pripasit si in oala cu varza \xBB, dar discret si tacut in privinta treburilor
+        care nu-l priveau in mod direct Lica a cerut, autoritar, sa afle cine e carciumarul,
+        caruia i se prezinta cu agresivitate : \xAB -Eu sunt Lica Samadaul !... multe
+        se zic despre mine, si dintre multe, multe vor fi adevarate si multe scornite.\xBB
+        El accentueaza faptul ca este periculos - \xAB nimeni nu cuteaza sa fure,
+        ba sa-l fereasca Dumnezeu pe acela, pe care as\r\n\r\ncrede ca-l pot banui
+        \xBB - si ii pretinde lui Ghita sa-l informeze despre tot ce se intampla,
+        \xAB cine umbla pe drum, cine trece pe aici, cine ce zice si cine ce face
+        \xBB. Ghita este coplesit de ganduri negre, pentru ca simte pericolul care-l
+        pandeste daca se supune lui Lica, dar si riscul si mai mare daca-l refuza.
+        Desfasurarea actiunii : Confictul psihologic se amplifica treptat, pe masura
+        ce Ghita se implica in afacerile necinstite ale lui Lica, Ghita isi cumpara
+        doua pistoale, isi ia inca o sluga, pe Marti, \xAB un ungur inalt ca un brad
+        \xBB si doi catei, pe care-i pune in lant ca sa se inraiasca. Ana vede ca
+        barbatul ei este ingandura, se instraineaza de ea si de copii, se facuse
+        \xAB tot mai ursuz \xBB, se enerva din nimic, \xAB nu mai zambea ca mai \u2018nainte
+        \xBB, iar ea se temea sa-l intrebe ce are, deoarece el se mania cu usurinta.
+        Ghita isi da seama ca la Moara cu noroc \xAB nu putea sa stea nimeni fara
+        voia lui Lica \xBB, iar el isi dorea sa stea aici numai \xAB trei ani, sa
+        ma pun pe picioare \xBBsi, pentru prima oara, el se gandeste ca ar fi fost
+        bine \xAB sa n-aiba nevasta si copii \xBB si sa poata spune : \xAB Prea putin
+        imi pasa !\xBB. Lacom de bani , Ghita este gata \xAB sa-si puna pe un an,
+        doi, capul in primejdie \xBB , enervandu-se ca se simte legat pe de o parte
+        de familie, pe de alta de Samadau. Venit la han, Lica a mangaiat cainii,
+        spre disperarea lui Ghita, care-si da seama ca este total lipsi de aparare.
+        Lica ii da carciumarului semnele turmelor lui si-i porunceste lui Ghita sa-i
+        spuna ce turme treceau pe acolo, cum arata porcarul, ca de nu \xAB mi fac
+        rand de alt om la Moara cu noroc\xBB. Anei ii parea \xAB om rau si primejdios\xBB,
+        mai ales ca il vedea platind mai mult decat consuma. Pe la han se abateau
+        din ce in ce mai des jandarmii de la Ineu, si dintre toti, lui Ghita ii placea
+        de capitanul Pintea, singurul cu care carciumarul ar fi indraznit sa vorbeasca
+        \xAB mai pe fata\xBB. Aproape de Sf.Dumitru, Lica soseste la han impreuna
+        cu BuzaRupta, cu Saila Boarul si cu Raut, sta de vorba cu oamenii in carciuma
+        si-l intreaba pe Ghita daca stie cand vine arendasul evreu dupa chirie, apoi
+        vrea sa joace cu Ana, iar Ghita o indeamna : \xAB Joaca, muiere ;parca are
+        sa-ti ia ceva din frumusete\xBB, dar candi si vede nevasta imbujorata de
+        placerea jocului iar pe Lica strangand-o in brate si sarutand-o, Ghita \xAB
+        fierbea in el \xBB ros de gelozie si ranit in orgoliul de sot. Samadaul ramasese
+        la Moara cu noroc pentru ca \xAB are o vorba cu arendasul\xBB, dar noaptea,
+        trezita de latraturile cainilor, Ana il vede venind la han dinspre Fundureni.
+        A\r\n\r\ndoua zi, Pintea le spune ca noaptea trecuta, arendasul fusese pradat,
+        batut de abia se mai tinea in picioare si ca acestuia i se paru ca , desi
+        avusese fetele acoperite, unul dintre cei doi talfari ar fi fost Lica. Ghita
+        ii spune lui Pinte aca Lica dormise la han si ca nu plecase nicaieri, ci
+        abia in dimineata aceea parasise hanul. In drum spre Ineu, Pintea ii destainuie
+        ca fusese tovaras cu Lica, furasera niste cai si fusesera inchisi impreuna,
+        apoi se certasera atat de tare, incat el il uraste de moarte si jura ca se
+        va spanzura daca implineste patruzeci de ani si nu o sa-l dovedeasca pe Lica.
+        La han soseste o doamna imbracata-n doliu cu un copil, intr-o trasura boiereasca
+        trasa de trei cai si cu un fecior pe capra, langa vizitiu. Achitand consumatia,
+        femeia ii da Anei o bacnota rupta la un colt si, la rugamintea hangitei de
+        a-i da alta, tanara \xAB scoate zambind o punga mare si plina de harti noi
+        noute, luo una dintre ele si i-o dete, apoi se gati de plecare\xBB. La Ineu,Ghita
+        depune marturie mincinoasa, el jura \xAB pe pane si pe sare\xBB ca nu stia
+        de ce Samadaul il cauta pe arendas si declara ca \xAB Lica a stat toata noaptea
+        la carciuma\xBB. Intorcandu-se cu Pintea la han, gasesc pe drum casura boiereasca
+        fara cai, pe iarba vad un copil mort, iar spre miezul noptii, jandarmii gasesc
+        cadavrul \xAB unei femei tinere, imbracate in negru \xBB si un bici, cu care
+        ii fusese legate mainile. Biciul era al lui Lica, Pintea il cunoaste bine,
+        iar acasa la Buza- Rupta este gasita o parte din argintaria furata de la
+        arendas. Procesul are loc la Oradea-Mare si marturiile tuturor duc spre sacrificarea
+        lui Buza-Rupta si Saila Boarul care au fost si condamnati pe viata. Dupa
+        proces, Ghita se simte foarte vinovat pentru ca jurase stramb si spuse, cu
+        lacrimi in ochi : \xAB Iarta-ma Ano ! [\u2026] Iarta-ma cel putin tu, ca
+        ci eu n-am sa ma iert cat timp voit rai pe fata pamantului\xBB. Macinat de
+        remuscari, Ghita isi compatimeste copii \xAB Sarmanilor mei copii, [\u2026]
+        voi nu mai aveti, cum avusesra parintii vostri un tata om cinstit. [\u2026]
+        Tatal vostru e un ticalos \xBB. Slavici realizeaza o analiza psihologica
+        profunda a lui Ghita, framantarile interioare, zbuciumul si setea pentru
+        bani devin din ce in ce mai chinuitoare. Prima intalnire a lui Ghita cu Lica
+        dupa proces, este infricosatoare pentru carciumar. Samadaul ii vorbeste despre
+        \xAB dulceata pacatului \xBB si-i relateaza cum a infaptuit primul omor din
+        cauza ca nu avea bani sa cumpere niste porci care-i fusesera furati, cum
+        a doua oara a ucis \xAB ca sa ma mangai cu mustrarile\r\n\r\npentru cel dintai
+        \xBB, iar acum simte o adevarata placere. Ii destainuie lui Ghita ca un om
+        poate fi stapanit numai daca ii descoperi punctul slab, iar cel mai periculos
+        defect este slabiciunea pentru o singura femeie. Aluzia lui Lica este clara,
+        sugerand ca slabiciunea cea mai mare a lui Ghita este iubirea pentru Ana
+        si simtindu-se umilit in orgoliul lui de barbat, carciumarul se gandeste-
+        a cata oara ?- sa-l duca pe Samadaul la spanzuratoare. Lica ii daduse hangiului
+        bani insemnati, ca acesta sa-i schimbe prin negustorie si sa li se piarda
+        urma. Ghita se hotaraste brusc sa-l demaste, ia toate bacnotele insemnate
+        si se duce cu ele la Pintea, care planuieste sa-l prinda pe Lica in flagrant.
+        Pintea ii da inapoi bani buni, dar carciumarul nu-i spune ca jumatate din
+        bani sun tai lui, recuperandu-si astfel intreaga suma. Ghita isi gaseste
+        scuze pentru lacomia care-l stapaneste : \xAB -Asa m-a lasat Dumnezeu ! Ce
+        sa-mi fac daca e in mine ceva mai tare decat vointa mea !? Nici cocosatul
+        nu e insusi vinovat, ca are cocoasa in spinare: nimeni mai mult decat dansul,
+        n-ar dori sa n-o aibe \xBB. In saptamana Pastelui, batrana pleaca impreuna
+        cu copii sa petreaca sarbatorile la niste rude din Ineu, iar Ana insista
+        sa ramana la barbatul ei acasa, stricand astfel planurile sotului. Lica se
+        enerveaza ca nu-l gaseste singur pe Ghita si izbucneste : \xAB SAa te fereasca
+        Dumnezeu de oamenii care au slabiciune de vreo muiere \xBB. De aceea Lica
+        il sfatuieste pe Ghita sa plece undeva si sa-l lase singur cu nevasta lui,
+        ca sa se vindece de slabiciunea pe care o avea pentru femeie : \xAB -Are
+        sa-ti vie greu acu odata, [\u2026] de aici inainte esti lecuit pe vecie.
+        Tu vezi ca ea mi se da de buna voie :asa sunt muierile \xBB. Punctul culminant
+        : Consolandu-se ca un las, \xAB asa mi-a fost randuit \xBB, Ghita accepta
+        sa plece si se gandeste ca se va intoarce pe inserat cu Pintea si-l vor prinde
+        pwe Samadaul cu banii insemnati asupra lui, reusind astfel sa-l duca la spanzuratoare.
+        Ana, dezamagita de comportamentul sotului ei si crezand ca n-o mai iubeste,
+        se arunca-n bratele lui Lica, dupa care il roaga s-o ia cu el, intucat ii
+        era rusine sa mai dea ochii cu sotul ei. Samadaul o respinge cu inndiferenta
+        si-o sfatuieste sa se impace cu Ghita. Deznodamantul : Pintea este puternic
+        impresionat de faptul ca Ghita isi sacrificase nevasta pentru a-l prinde
+        pe Lica : \xAB Tare om esti tu, Ghita [\u2026]. Si eu il urasc pe Lica ;
+        dar n-as fi putut sa-mi arunc o\r\n\r\nnevasta ca a ta drept momeala in cursa
+        cu care vreau sa-l prind \xBB. Ajunsi in apropierea satului, Pintea, impreuna
+        cu Marti si cu inca doi jandarmi, il vad pe Lica plecand in goana calului
+        de la han si pornesc in urmarirea lui. Ghita se indreapta spre Moara cu noroc
+        cu gandul sa-si incheie socotelile cu nevasta-sa. Cand in han au navalit
+        Lica si Raut, \xAB Ana era intinsa la pamant si cu pieptul plin de sange
+        cald, iara Ghita o tinea sub genunchi si apasa cutitul mai adanc spre inima
+        ei \xBB. Raut isi descarca pistolul in ceafa lui Ghita, care \xAB cazu fara
+        sa mai poata afla cine l-a impuscat \xBB. Samadaul da ordine tovarasilor
+        sai sa gaseasca banii carciumarului, apoi sa dea foc hanului. Lica incearca
+        sa fuga, dar calul era obosit de atata alergatura si atunci se hotaraste
+        sa treaca raul inot, dar acesta se umfla de la ploaie. Simtindu-se sleit
+        de puteri, Lica ar vrea sa se tarasca pana la Moara cu noroc, unde ar fi
+        trebuit sa se afle calul lui Ghita, sa-l ia si sa-si piarda urma. Pintea
+        il zareste insa la lumina focului pus la han si striga atat de tare \xAB
+        incat rasuna toata valea\xBB. Auzindu-i glasul, Lica \xAB isi tinti ochii
+        la un stejar uscat ce stetea la departare de vreo cincizeci de pasi, scrasnind
+        din dinti, apoi isi incorda toate puterile si se repezi inainte\xBB. Pintea
+        il gasi \xAB cu capul sfaramat la tulpina stejarului\xBB si, ca sa nu afle
+        nimeni ca-i scapase din nou, de data asta definitiv, ii impinse trupul in
+        valurile raului. Finalul nuvelei este reprezentat, ca si incipitul, de cuvintele
+        batranei, care se intorsese si statea cu copii pe o piatra, plangand cu lacrimi
+        amare soarta nemiloasa : \xAB - se vede c-au lasat ferestrele deschise [\u2026]
+        Simteam eu ca nu are sa iasa bine ; dar asa le-a fost dat\xBB. Bun cunoscator
+        al psihologiei umane, a randuielilor rurale, a datinilor, obiceiurilo si
+        superstiilor, Ioan Slavici este neindurator cu cei care se abat de la principiile
+        fundamentale ale moralei si-si pedepseste personajele proportional cu greselile
+        savarsite de acestea. Focul din finalul nuvelei este sugestiv pentru nevoia
+        de a fi purificat locul acela de toate relele ce se infaptuisera la carciuma
+        Moara cu noroc. Deoarece este o specie epica de intindere medie, cu un singur
+        plan narativ, un conflict consolidat, o intriga bine evidentiata cu personaje
+        putenic conturate, unele dintre ele complexe, opera literara \xAB Moara cu
+        noroc \xBB de Ioan Slavici este o nuvela. Introspectia si observatia psihologica
+        pe care Slavici\r\n\r\nle manifesta in sindarea personajelor, precum si pedepsirea
+        exemplara a acestora, definesc opera ca nuvela psihologica. Limbajul artistic.
+        Opera lui Ioan Slavici are un profund caracter popular, atat prin tematica,
+        prin conceptia morala, cat si prin dragostea lui pentru sufletul omenesc.
+        El este un adevarat maestru in construirea dialogurilor si a monologurilor
+        interioare, prin care sondeaza sufletul omenesc, analizeaza reactiile, trairile
+        interioare, gandurile personajelor. Desi a fost acuzat de folosirea excesiva
+        a regionalismelor, stilul lui Slavici are o oralitate asemanatoare ca aceea
+        a lui Creanga, dand impresia de \xAB spunere\xBB a intamplarilor in fata
+        a unui auditoriu, mai ales ca si el intervine deseori in naratiune fie prin
+        exclimatii sau interogatii retorice, fie prin proverbe si zicatori. Ioan
+        Slavici reuseste sa comunice cu claritate ideile, sa formuleze cu o concizie
+        clasica trasatura unui personaj, sa descrie un peisaj cu mijloace simple,
+        intr-o faza sobra,, fara ornamente inutile, valoarea limbii literare constand
+        tocmai in \xAB lipsa de stil \xBB. In concluzie, limbajul artistic este original
+        prin vigoare, sobritate, spontanietate si oralitate, Ioan Slavici fiind initiatorul
+        prozei realiste in literatura romana, solida prin dragostea lui profunda
+        pentru oameni : \xAB In gandul meu rostul scrierii a fost intotdeauna indrumarea
+        spre o vietuire potrivita cu firea omeneasca \xBB (\xAB Lumea prin care am
+        trecut \xBB).\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+--- !u!224 &924815510 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 924815509}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &924815511 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121821, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 924815509}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &943391181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 943391184}
+  - component: {fileID: 943391183}
+  - component: {fileID: 943391182}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &943391182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943391181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &943391183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943391181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &943391184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943391181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1017260503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1017260504}
+  - component: {fileID: 1017260507}
+  - component: {fileID: 1017260506}
+  - component: {fileID: 1017260505}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1017260504
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017260503}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.41666663, y: 0.41666663, z: 0.41666663}
+  m_Children: []
+  m_Father: {fileID: 924815510}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -374.10834, y: 209.46613}
+  m_SizeDelta: {x: 117.1515, y: 46.9623}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1017260505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017260503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.6313726}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.30588236}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1017260506}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 924815511}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: BackPlaySceneComentariuMoara
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1017260506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017260503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5fb46dbcc4058f643b8b43d5565960a5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1017260507
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017260503}
+  m_CullTransparentMesh: 1

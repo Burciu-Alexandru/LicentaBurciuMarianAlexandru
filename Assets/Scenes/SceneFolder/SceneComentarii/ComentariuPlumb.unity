@@ -1,0 +1,703 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &584050641
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381942, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Text
+      value: "Poezia \u201DPlumb\u201D a ap\u0103rut \xEEn 1918 \xEEn fruntea volumului
+        cu acela\u0219i nume. \u201DPlumb\u201D este considerat\u0103 o capodoper\u0103
+        a crea\u021Biei bacoviene \u0219i o culme a simbolismului rom\xE2nesc. Printre
+        caracteristicile de arta poetica a operei \u201CPlumb\u201D, putem aminti
+        asezarea in fruntea volumului de debut si conceptia autorului despre poezie.\r\n\r\n2.\r\nTema
+        poeziei o reprezinta condi\u021Bia poetului \xEEntr-o lume meschina, incapabila
+        de a \xEEn\u021Belege si a promova valorile, dar \u0219i condi\u021Bia existen\u021Bial\u0103
+        a oric\u0103rui individ - moartea iminent\u0103. \r\n\r\n3.\r\nOpera lui
+        Bacovia se \xEEncadreaz\u0103 in curentul literar numit simbolism. \r\n\r\n\r\nSimbolismul
+        este un curent literar ap\u0103rut \xEEn Fran\u0163a ca reac\u0163ie \xEEmpotriva
+        parnasianismului, a romantismului retoric \u015Fi a naturalismului, promov\xE2nd
+        conceptul de poezie modern\u0103, care este definit\u0103 ca \u201Earta de
+        a sim\u0163i\u201D. Simboli\u015Ftii sus\u0163in ideea c\u0103 fiec\u0103rui
+        obiect din lumea \xEEnconjur\u0103toare \xEEi corespunde un sentiment, o
+        stare care poate fi exprimat \u015Fi explicat prin simboluri. Teoreticianul
+        simbolismului este Jean Moreas, prin manifestul literar \u201ELe symbolisme\u201D,
+        \xEEn care vorbe\u015Fte despre o art\u0103 care va fi \xEEmpotriva falsei
+        sensibilit\u0103\u0163i \u015Fi sus\u0163ine c\u0103 poezia trebuie s\u0103
+        sugereze doar \u015Fi nu s\u0103 descrie.\r\n\r\nPoe\u0163ii \xEE\u015Fi
+        manifest\u0103 preferin\u0163a pentru imagini imprecise, prin care se transmit
+        diverse senza\u0163ii, st\u0103ri ale spiritului. Starea poetic\u0103 este
+        caracterizat\u0103 prin decaden\u0163\u0103, astfel sentimentele \u015Fi
+        st\u0103rile sugerate sunt: triste\u0163ea, suferin\u0163a, dezn\u0103dejdea,
+        frica, delirul, nevroza, plictisul, ap\u0103sarea singur\u0103t\u0103\u0163ii,
+        spaima de moarte sau de neant, izolarea, oboseala psihic\u0103, monotonia.
+        Principalele teme \u015Fi motive simboliste reprezint\u0103 aceste st\u0103ri
+        \u015Fi atitudini poetice, de aceea se prefer\u0103 teme ca condi\u0163ia
+        poetului nefericit, lumea ora\u015Fului sufocant, moartea v\u0103zut\u0103
+        ca descompunere a lumii, natura dezolant\u0103, apocaliptic\u0103, amorul
+        defunct, singur\u0103tatea, evadarea spre mari dep\u0103rt\u0103ri sau t\u0103r\xE2muri
+        misterioase. Aceste teme sunt ilustrate prin c\xE2teva motive tipice, cum
+        ar fi ploaia sau apa, materia aflat\u0103 \xEEn descompunere, iubita moart\u0103,
+        amurgul, frigul, v\xE2ntul, metale pre\u0163ioase sau instrumente muzicale.
+        O tr\u0103s\u0103tur\u0103 definitorie a poeziei simboliste este muzicalitatea,
+        realizat\u0103 prin enumera\u0163ii, repeti\u0163ii, refrene sau prezen\u0163a
+        unor instrumente muzicale. O mare inova\u0163ie din punct de vedere prozodic
+        este cultivarea versifica\u0163iei libere, ceea ce corespunde muzicalit\u0103\u0163ii
+        interioare. Simbolistica culorilor este o alt\u0103 tr\u0103s\u0103tur\u0103
+        a crea\u0163iilor simboliste, culorile red\xE2nd st\u0103ri profunde, emo\u0163ii
+        puternice.\r\n4.\r\nGeorge Bacovia a fost un scriitor roman, format la scoala
+        simbolismului literar francez. Acesta este autorul unor volume de versuri
+        si de proza scrise in baza unei tehnici unice in literatura romana, cu vadite
+        influente din marii lirici moderni francezi pe care acesta ii admira.\r\n\r\nBacovia
+        este cel mai mare reprezentant al simbolismului rom\xE2nesc, un poet vizionar,
+        cre\xE2nd drama \xEEnsingur\u0103rii prin poeziile sale. Este un poet al
+        sensibilit\u0103\u0163ii, un spirit decadent, un poet al marilor triste\u0163i.
+        Lirica lui eviden\u0163iaz\u0103 st\u0103ri depresive, de ad\xE2nc\u0103
+        triste\u0163e, degradarea psihicului p\xE2n\u0103 la distrugere sau dispari\u0163ie.
+        Starea obi\u015Fnuit\u0103 e triste\u0163ea, dezn\u0103dejdea, frica, delirul,
+        nevroza, ca rezultate ale singur\u0103t\u0103\u0163ii, ale descompunerii
+        lumii. Baeovia este parc\u0103 poetul cobor\xE2t \xEEn Infern pentru a aduce
+        la suprafa\u0163\u0103 vedenii stranii, strig\u0103te de teroare. Prin aceste
+        st\u0103ri reprezint\u0103 refuzul lumii; poezia lui este sincer\u0103, e
+        un semnal de alarm\u0103, o autosalvare \xEEn fa\u0163a lumii nesigure. Baeovia
+        \xEE\u015Fi compune un stil din suferin\u0163\u0103 \u015Fi izolare, cre\xE2nd
+        poezii de o frumuse\u0163e stranie, inimitabil\u0103.\r\nPoezia \u201EPlumb\u201D
+        a ap\u0103rut \xEEn fruntea volumului de debut, intitulat \u201EPlumb\u201D
+        \xEEn anul 1916 \u015Fi este o poezie programatic\u0103, o ars poetica, sintetiz\xE2nd
+        motive \u015Fi mijloace de expresie, st\u0103ri poetice \u015Fi viziuni caracteristice
+        pentru crea\u0163iile bacoviene. Poezia exprim\u0103 starea de melancolie,
+        de triste\u0163e, de izolare a poetului, care se simte \xEEnsingurat \xEEn
+        lume. Tema poeziei este moartea, sugerat\u0103 \xEEn primul r\xE2nd prin
+        cuv\xE2ntul \u201Eplumb\u201D, repetat simetric \u015Fi obsesiv de \u015Fase
+        ori, respectiv singur\u0103tatea, sugerat\u0103 prin reluarea simetric\u0103
+        a sintagmei \u201Est\u0103m singur\u201D.\r\n\r\n5.\r\nTitlul poeziei este
+        unul incifrat, plin de semnificatii. Plumbul semnifica greutate, se face
+        astfel referire la greutatea sufleteasca. Prin culoarea gri se exprima plictisul
+        existential, prin consoanele \u201Cp\u201D, \u201Dl\u201D, \u201Cm\u201D,
+        \u201Cb\u201D se exprima caderea in neant, iar prin capacitatea rapida de
+        oxidare exprima ca dupa bucurii vin si suparari.\r\n\r\nPlumbul este un metal,
+        iar greutatea sa considerabil\u0103 sugereaz\u0103 o stare sufleteasc\u0103
+        ap\u0103s\u0103toare, grea - de aici \u0219i prima concentra\u021Bie simbolistic\u0103.
+        Culoarea gri red\u0103 o existen\u0163\u0103 monoton\u0103 \u015Fi astfel
+        cadrul \xEEn care tr\u0103ie\u015Fte poetul este un spa\u0163iu al pierderii
+        speran\u0163elor. Maleabilitatea metalului sugereaz\u0103 labilitatea psihic\u0103,
+        starea de nevroz\u0103 a poetului, astfel cadrul produce o stare de nelini\u015Fte,
+        o stare depresiv\u0103. Sonoritatea surd\u0103 a cuv\xE2ntului face trimitere
+        la izolare, la \xEEnchidere definitiv\u0103, astfel eul liric se afl\u0103
+        \xEEntr-un cadru care trimite la singur\u0103tate.\r\n\r\nCuv\xE2ntul-cheie
+        al poeziei este \u201Dplumb\u201D, care are valoare de simbol, repeti\u021Bie
+        \u0219i epitet. In exprimarea \u201Dsicriele de plumb\u201D sugereaz\u0103
+        c\u0103derea, imposibilitatea zborului \u0219i a salv\u0103rii.\r\n\r\n6.
+        \r\nDiscursul poetic al poeziei \u201DPlumb\u201D este conceput sub forma
+        unui monolog tragic \xEEn care poetul exprim\u0103 o stare sufleteasc\u0103
+        disperat\u0103, lipsit\u0103 de orice speran\u021B\u0103.\r\n\u201DAtmosfera
+        poeziei bacoviene iese din limitarea senza\u021Biilor, a imaginilor, a expresiei
+        poetice \u0219i din repeti\u021Bia lor monoton\u0103\u201D (E. Lovinescu)\r\n\r\n7.\r\nPoezia
+        are dou\u0103 catrene, form\xE2nd dou\u0103 planuri: cel exterior, material,
+        red\xE2nd imaginea unei lumi care determin\u0103 izolarea \u015Fi cel interior,
+        spiritual, simboliz\xE2nd starea sufleteasc\u0103 deprimant\u0103 a eului
+        liric. \xCEn extern poetul pare a fi izolat \u0219i disperat, la fel \u0219i
+        \xEEn interior, se pare c\u0103 nici iubirea invocat\u0103 cu disperare nu
+        este o \u0219ans\u0103 de salvare. \r\n\r\n\r\n8.\r\nIn poezia \u201DPlumb\u201D
+        exist\u0103 un motiv esen\u021Bial: moartea, redat prin \u201Dsicriu\u201D,
+        \u201Dmort\u201D, \u201Dsomn\u201D, \u201Ddormea ad\xEEnc\u201D, \u201Dcavou\u201D,
+        \u201Dcoroane\u201D, \u201Dera frig\u201D, \u201Dera vint\u201D. Celelalte
+        motive \u2013 amorul, tristea\u021Bea singur\u0103tatea \u2013 sunt secundare,
+        dar ajut\u0103 la reliefarea ideii esen\u021Biale de alunecaare inevitabil\u0103
+        spre moarte, neant.\r\n\r\n9.\r\nIn prima strofa ne este dezvaluit universul
+        existential, impietrit, funebru, sugerat de sintagmele: \u201Cfunerar vestmant\u201D,
+        \u201Cflori de plumb\u201D si imaginea auditiva \u201Cscartaiau coroanele
+        de plumb\u201D care amplifica alaturi de punctele de suspensie atmosfera
+        macabra, sinistra, sugerand defapt frica de moarte. Prima strof\u0103 define\u0219te
+        un univers rece, str\u0103in, in care poetul tr\u0103ie\u0219te sentimetnul
+        singur\u0103t\u0103\u021Bii tragice: \u201DDormeau ad\xEEnc sicriile de plumb,/
+        \u0218i flori de plumb \u0219i funerar ve\u0219m\xEEnt \u2013 / Stau singur
+        in cavou\u2026 \u0219i era vint\u2026/ \u0218i sc\xEEr\u021B\xEEiau coroanele
+        de plumb\u201D.\r\n\r\n10.\r\nIn a doua strofa ne este dezvaluita o alta
+        secventa lirica, in care iubirea ca mijloc de salvarea din acest univers
+        macabru este refuzata. Acest fapt este identificat in expresia \u201Cdormea
+        intors amorul meu de plumb\u201D care propune o viziune concreta si antropomorfa
+        asupra iubrii, ca un mit ce moare si isi pierde calitatea de absolut. Strofa
+        a doua define\u0219te realitatea interioar\u0103. Poetul invoc\u0103 amorul,
+        dar acesta doarme \xEEntors cu fa\u021Ba spre moarte. \u201DAripile de plumb\u201D
+        sugereaz\u0103 c\u0103derea surd\u0103 \u0219i grea, din care poetul nu se
+        mai poate \xEEn\u0103l\u021Ba, c\u0103derea in moarte este inevitabil\u0103,
+        \u0219i nici m\u0103car iubirea invocat\u0103 cu disperare nu reprezint\u0103
+        o \u0219ans\u0103 de salvare: \u201DDormea \xEEntors amorul meu de plumb/
+        Pe flori de plumb, \u0219i-am inceput s\u0103-l strig \u2013 / Stam singur
+        ling\u0103 mort\u2026 \u0219i era frig\u2026/ \u0218i-i at\xEErnau aripile
+        de plumb.\u201D\r\n\r\n11.\r\nIn text apar elemente de prozodie precum masura
+        versurilor de zece silabe, rima imbratisata si ritmul trohaic care alterneaza
+        cu amfibranhul.\r\n\r\nLa nivelul lexical, fonetic, morfosintactic, poetul
+        exteriorizeaz\u0103 ideea de alunecare spre neant. Verble la imperfect (dormeau,
+        dormea, stam) sugereaz persisten\u021Ba atmosferei deprimate. Repeti\u021Bia
+        conjunc\u021Biei \u201D\u0219i\u201D amplific\u0103 aceast\u0103 atmosfer\u0103:
+        \u201D\u0218i flori de plumb \u0219i funerar ve\u0219tm\xEEnt \u2013 /\u2026
+        \u0219i era vint\u2026 / \u0218i sc\xEEr\u021B\xEEiau coroanele/\u2026 \u0219i-am
+        inceput s\u0103-l strig/\u2026 \u0219i era frig\u2026/ \u0218i-i at\xEErnau
+        aripile de plumb.\u201D. epitetele \u201Dad\xEEnc\u201D, \u201D\xEEntors\u201D,
+        \u201Dfunerar\u201D, \u201Dsingur\u201D contribuie la realizarea unei nelini\u0219ti
+        metavizice. Frecven\u021Ba consoanelor \u201Dm, b, v, l\u201D, a diftongului
+        \u201Dau\u201D \u0219i a triftongului \u201Deau\u201D sugereaz\u0103 pl\xEEnsetul
+        ca ecou al atmosferei insuportabile. Versul este iambic in exclusivitate,
+        iar tonul este elegiac. Structura poeziei este armonioas\u0103, prima strof\u0103
+        se repet\u0103 in afar\u0103 de versul al doilea, astfel \xEEnc\xEEt primul
+        vers este in real\u021Bie cu versul 5, 3 cu 7, \u0219i 4 cu 8. Din mijloace
+        artistice de realizare pe ling\u0103 simbol intilnim metafore \u0219i personific\u0103ri:
+        \u201DDormeau ad\xEEnc sicriile de plumb\u201D.\r\n\r\nToate cuvintele incipitului
+        au un tipar sintactic clasic: predicat, complement, subiect, atribut sunt
+        metafore simbol ale mortii, ale caderii in inertia plumbului. Incipitul debuteaza
+        cu \u201Cdormeau adanc, sicriele de plumb\u201D scotand in evidenta atat
+        somnul Bacovian, halucinatoriu cat si imaginea macabra a sicrielor.\r\n\r\n12.\r\nOpera
+        este incheiata prin \u201Csi atarnau airipile de plumb\u201D care in viziunea
+        lui Lucian Blaga semnifica zborul intors spre apus.\r\n\r\nSentimentul dominant
+        este de oboseal\u0103, de trecere inevitabil\u0103 spre moarte. In numai
+        cele dou\u0103 catrene ale ei, poezia exprim\u0103 o stare sufleteasc\u0103
+        de o cople\u0219itoare singur\u0103tate, iar atmosfera este de o dezolare
+        total\u0103 in tremur\u0103toarea ap\u0103sare material\u0103 fiind sugerat\u0103
+        de greutatea metalului \xEEntunecat.\r\n\r\nIn concluzie, datorita elementelor
+        prezentate mai sus, putem afirma ca \u201CPlumb\u201D de George Bacovia intruneste
+        toate notele definitorii curentului literar numit simbolism."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+--- !u!1 &584050642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 584050641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &584050643 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121821, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 584050641}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584050642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &584050644 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 584050641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &584050645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584050642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &647157463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 647157466}
+  - component: {fileID: 647157465}
+  - component: {fileID: 647157464}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &647157464
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647157463}
+  m_Enabled: 1
+--- !u!20 &647157465
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647157463}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &647157466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647157463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1210632102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1210632103}
+  - component: {fileID: 1210632106}
+  - component: {fileID: 1210632105}
+  - component: {fileID: 1210632104}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1210632103
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210632102}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.41666663, y: 0.41666663, z: 0.41666663}
+  m_Children: []
+  m_Father: {fileID: 584050644}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -375.00003, y: 213.00006}
+  m_SizeDelta: {x: 136.1987, y: 54.5977}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1210632104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210632102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.6313726}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.30588236}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1210632105}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 584050643}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: backPlaySceneComentariuPlumb
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1210632105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210632102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5fb46dbcc4058f643b8b43d5565960a5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1210632106
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210632102}
+  m_CullTransparentMesh: 1
+--- !u!1 &1381948248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1381948251}
+  - component: {fileID: 1381948250}
+  - component: {fileID: 1381948249}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1381948249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381948248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1381948250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381948248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1381948251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381948248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

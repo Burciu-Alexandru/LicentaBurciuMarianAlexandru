@@ -1,0 +1,638 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &979644133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 979644136}
+  - component: {fileID: 979644135}
+  - component: {fileID: 979644134}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &979644134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979644133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &979644135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979644133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &979644136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979644133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1016973103
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381942, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Text
+      value: "Opera lui Camil Petrescu apare \xEEn anul 1930, fiind considerat un
+        roman modern de analiz\u0103 psihologic\u0103, iar criticul literar Tudor
+        Vianu nume\u0219te aceasta scriere: \u201Eart\u0103 a analizei psihologice\u201D.\r\n\r\n\r\nRoman
+        psihologic prin tem\u0103, conflict \u0219i prin utilizarea unor tehnici
+        ale analizei psihologice, opera este considerat\u0103 \u201Eo monografie\u201D
+        a unei \xEEndoieli.\r\n\r\nCrea\u021Bia lui Camil Petrescu este un roman
+        modern de tip subiectiv deoarece are drept caracteristici: perspectiv\u0103
+        narativ\u0103 subiectiv\u0103, timpul prezent (cel al nara\u021Biunii) \u0219i
+        timpul trecut (cel al pove\u0219tii de iubire rememorat\u0103 de protagonist),
+        memoria afectiv\u0103 \u0219i autenticitatea definit\u0103 \xEEn actul crea\u021Biei.\r\n\r\nRomanul
+        este structurat \xEEn dou\u0103 p\u0103r\u021Bi precizate \xEEnc\u0103 din
+        titlu, care eviden\u021Biaz\u0103 \u0219i temele romanului, cele dou\u0103
+        teme fundamentale ale protagonistului: iubirea \u0219i r\u0103zboiul. Dac\u0103
+        prima parte reprezint\u0103 rememorarea pove\u0219tii de iubire e\u0219uate
+        dintre \u0218tefan \u0219i Ela, partea a doua, construit\u0103 sub forma
+        unui jurnal de front a lui Ghiorghidiu, urm\u0103re\u0219te experienxa din
+        Primul R\u0103zboi Mondial. Prima parte este \xEEn \xEEntregime fic\u021Bional\u0103,
+        \xEEn timp ce a doua valorific\u0103 jurnalul autorului \u0219i documentele
+        din epoc\u0103, ceea ce confer\u0103 textului autenticitate.\r\n\r\nCrea\u021Bia
+        \xEEncepe printr-un artificiu compozi\u021Bional: ac\u021Biunea primului
+        capitol \u201ELa Piatra Craiului \xEEn munte\u201D, este posterioar\u0103
+        \xEEnt\xE2mpl\u0103rilor din restul c\u0103r\u021Bii \xEEnt\xE2i. Ac\u021Biunea
+        pune \xEEn eviden\u021B\u0103 cele dou\u0103 planuri temporale din discursul
+        narativ. \xCEn prim\u0103vara anului 1916, \xEEn timpul unei concentr\u0103ri
+        pe Valea Prahovei, Ghiorghidiu asista la o discu\u021Bie pornit\u0103 de
+        la un articol de ziar: un b\u0103rbat care \u0219i-a ucis so\u021Bia infidel\u0103
+        a fost achitat de tribunal. Aceast\u0103 discu\u021Bie declan\u0219eaz\u0103
+        memoria afectiv\u0103 a protagonistului, terzindu-i amintiri legate de cei
+        doi ani \u0219i jum\u0103tate de c\u0103snicie cu Ela. \u201EEram c\u0103s\u0103torit
+        de doi ani \u0219i jum\u0103tate cu o coleg\u0103 de la Litere \u0219i b\u0103nuiam
+        c\u0103 m\u0103 \xEEn\u0219eal\u0103\u201D este fraza cu care debuteaz\u0103
+        cel de-al doilea capitol, care include de fapt \u0219i intriga, \u201EDiagonalele
+        unui testament\u201D. T\xE2n\u0103rul pe atunci student la Filosofie se c\u0103s\u0103tore\u0219te
+        din dragoste cu Ela, student\u0103 la Litere, orfan\u0103 crescut\u0103 de
+        o m\u0103tu\u0219\u0103. Iubirea b\u0103rbatului se na\u0219te din admira\u021Bie
+        \u0219i duio\u0219ie \u201Eiube\u0219ti mai \xEEnt\xE2i din \xEEndatorire,
+        din mil\u0103, din duio\u0219ie, iube\u0219ti pentru c\u0103 \u0219tii c\u0103
+        asta o face fericit\u0103\u201D, dar la o autoanaliz\u0103, \u0218tefan m\u0103rturise\u0219te
+        c\u0103 apeleaz\u0103 la orgoliu \u201E\xEEncepusem totu\u0219i s\u0103 fiu
+        m\u0103gulit de admira\u021Bia pe care o avea mai toat\u0103 lumea pentru
+        mine, fiindc\u0103 eram at\xE2t de p\u0103tima\u0219, iubit de una dintre
+        cele mai frumoase studente \u0219i cred ca acest orgoliu a constituit baza
+        viitoarei mele c\u0103s\u0103torii.\u201D\r\n\r\nMo\u0219tenirea pe care
+        cei doi o primesc dup\u0103 c\u0103s\u0103torie, le schimb\u0103 echilibrul
+        din familie \u201Eastfel Ela \xEEncepe s\u0103 se implice \xEEn discu\u021Biile
+        despre bani (lucru de care \u0218tefan era deranjat), a\u0219 fi vrut s\u0103
+        r\u0103m\xE2n\u0103 mereu feminin\u0103, deasura acestor discu\u021Bii vulgare\u201D.
+        Mai mult Ela, spre deosebire de so\u021Bul ei, este \xEEnc\xE2ntat\u0103
+        de via\u021Ba modern\u0103 la care noul ei statut \xEEi oferea acces. Cuplul
+        evolueaz\u0103 spre o inevitabil\u0103 criz\u0103 matrimonial\u0103 care
+        va atinge punctul culminant \xEEn excursia de la Odobe\u0219ti, prilejuit\u0103
+        de s\u0103rb\u0103toarea Sfin\u021Bilor Constantin \u0219i Elena. \xEEn timpul
+        excursiei Ela \xEEi acord\u0103 o aten\u021Bie exagerat\u0103 unui anumit
+        domn G, care este din perspectiva lui Ghiorghidiu, amantul acesteia. Cei
+        doi, dup\u0103 o scurt\u0103 desp\u0103r\u021Bire se \xEEmpac\u0103, iar
+        \u0218tefan se \xEEnroleaz\u0103 pe frontul Primului R\u0103zboi Mondial
+        de unde cere o permisie ca s\u0103-\u0219i verifice so\u021Bia care, b\u0103nuia
+        el c\u0103 \xEEl \xEEn\u0219eal\u0103, fapt nerealizat din cauza izbucnirii
+        r\u0103zboiului.\r\n\r\nA doua experient\u0103 este cea a r\u0103zboiului,
+        frontul \xEEnsemn\xE2nd haos, dezordine mizerie \xEEnv\u0103lm\u0103\u0219eal\u0103
+        \u0219i moarte. Ordinele ofi\u021Berilor sunt contradictorii astfel c\u0103
+        artileria rom\xE2n\u0103 \xEE\u0219i fixeaz\u0103 tunurile spre propriile
+        batalioane. La confruntarea cu \xEEntunericul se adaug\u0103 ploaia \u0219i
+        frigul.\r\n\r\nOpera\u021Biunile \xEEncep cu atacarea unui post maghiar,
+        iar \u0218tefan \u0219i unitatea lui p\u0103trund \xEEn localitatea Bran
+        \u0219i se \xEEndreapt\u0103 spre Sibiu. Experien\u021Bele dramatice de pe
+        front modific\u0103 atitudinea personajului fa\u021B\u0103 de celelalte aspecte
+        ale vie\u021Bii: \u201Eat\xE2t este de mare dep\u0103rtarea de cele \xEEnt\xE2mplate
+        ieri, c\u0103 acestea sunt mai aroape de copil\u0103ria mea dec\xE2t de mine
+        cel de azi. De so\u021Bia mea, de amantul ei, de tot zbuciumul de atunci,
+        mi-aduc aminte cu \xEEncordare ca de o \xEEnt\xE2mplare din copil\u0103rie.\r\n\r\nCea
+        de-a doua experien\u021B\u0103 las\u0103 urme ad\xE2nci \xEEn con\u0219tiin\u021Ba
+        personajului narator, iar capitolul \u201ENe-a acoperit p\u0103m\xE2ntul
+        lui Dumnezeu\u201D ilustreaz\u0103 tragismul \u0219i absurdul r\u0103zboiului
+        \u0219i a confrunt\u0103rii cu moartea. Via\u021Ba solda\u021Bilor \u021Bine
+        de hazard, iar eroismul este \xEEnlociut de spaim\u0103 \u0219i moarte, din
+        care se p\u0103streaz\u0103 doar instinctul de supravie\u021Buire \u201Enu
+        mai e nimic omenesc \xEEn noi\u201D. Drama devine una colectiv\u0103 pun\xE2nd
+        \xEEn umbr\u0103 imaginea individual\u0103 a iubirii.\r\n\r\nR\u0103nit \u0219i
+        spitalizat, Ghiorghidiu se \xEEntoarce acas\u0103 la Bucure\u0219ti, dar
+        se simte deta\u0219at de tot ce \xEEl legase de Ela. Obosit s\u0103 mai caute
+        certitudini, acum o prive\u0219te cu indiferen\u021Ba \u201Ecu care prive\u0219ti
+        un tablou\u201D, hot\u0103r\xE2nd s\u0103 o p\u0103r\u0103seasc\u0103 \u201Ei-am
+        spus c\u0103-i las absolut tot ce e \xEEn cas\u0103, de la obiecte de pre\u021B
+        la c\u0103r\u021Bi, de la lucruri personale la amintiri, adic\u0103 tot trecutul\u201D.\r\n\r\nPersonajul
+        principal este \u0218tefan Ghiorghidiu care reprezint\u0103 tipul intelectualului
+        care tr\u0103ie\u0219te drama \xEEndr\u0103gostirii de absolut. Ca filosof
+        el are impresia c\u0103 s-a izolat de lumea exterioar\u0103, \xEEns\u0103
+        \xEEn realitate evenimentele exterioare \xEEi influen\u021Beaz\u0103 con\u0219tiin\u021Ba.
+        G\xE2ndurile celorlalte personaje sunt cunoscute de c\u0103tre cititor doar
+        \xEEn m\u0103sura \xEEn care acestea se reflect\u0103 \xEEn co\u0219tiin\u021Ba
+        naratorului. \xCEn acest sens Ela este cel mai misterios personaj prin faptul
+        c\u0103 tot comportamentul ei este prezentat din perspectiva con\u0219tiin\u021Bei
+        lui \u0218tefan. De aceea cititorul nu se poate pronun\u021Ba asupra infidelit\u0103\u021Bii
+        ei \u201Ese schimb\u0103 sau doar felul \xEEn care o v\u0103d eu. \xCEn acest
+        caz singurele evenimente veritabile sunt cele din con\u0219tiin\u021Ba mea.
+        Numai pe acestea le putem povesti f\u0103r\u0103 de a gre\u0219i.\r\n\r\nPrin
+        introspec\u021Bie \u0219o monolog interios, \u0218tefan \xEEn\u021Belege
+        cu luciditate aspectele realit\u0103\u021Bii care-l influen\u021Beaz\u0103
+        \u0219i \xEEn planul con\u0219tiin\u021Bei.\r\n\r\n\xCEn concluzie, \u201EUltima
+        noapte de dragoste, \xEEnt\xE2ia noapte de r\u0103zboi\u201D este un roman
+        modern, psihologic, av\xE2nd drept caracteristici: unicitatea perspectivei
+        narative, timpul prezent \u0219i timpul subiectiv/ trecut, memoria afectiv\u0103,
+        nara\u021Biunea la persoana I \u0219i autenticitatea tr\u0103irii."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+--- !u!224 &1016973104 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 1016973103}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1016973105 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121821, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 1016973103}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1446676373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1446676374}
+  - component: {fileID: 1446676377}
+  - component: {fileID: 1446676376}
+  - component: {fileID: 1446676375}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1446676374
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446676373}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.41666663, y: 0.41666663, z: 0.41666663}
+  m_Children: []
+  m_Father: {fileID: 1016973104}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -375.00003, y: 213.00006}
+  m_SizeDelta: {x: 136.1987, y: 54.5977}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1446676375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446676373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.6313726}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.30588236}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1446676376}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1016973105}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: BackPlaySceneComentariuUltimaNoapte
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1446676376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446676373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5fb46dbcc4058f643b8b43d5565960a5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1446676377
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446676373}
+  m_CullTransparentMesh: 1
+--- !u!1 &1591402343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1591402346}
+  - component: {fileID: 1591402345}
+  - component: {fileID: 1591402344}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1591402344
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591402343}
+  m_Enabled: 1
+--- !u!20 &1591402345
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591402343}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1591402346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591402343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

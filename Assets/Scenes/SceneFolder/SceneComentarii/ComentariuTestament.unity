@@ -1,0 +1,654 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &55416550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 55416553}
+  - component: {fileID: 55416552}
+  - component: {fileID: 55416551}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &55416551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55416550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &55416552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55416550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &55416553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55416550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &158816440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 158816441}
+  - component: {fileID: 158816444}
+  - component: {fileID: 158816443}
+  - component: {fileID: 158816442}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &158816441
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158816440}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.41666663, y: 0.41666663, z: 0.41666663}
+  m_Children: []
+  m_Father: {fileID: 1617537431}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -375.00003, y: 213.00006}
+  m_SizeDelta: {x: 136.1987, y: 54.5977}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &158816442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158816440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.6313726}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.30588236}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 158816443}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1617537430}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: backPlaySceneComentariuTestament
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &158816443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158816440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5fb46dbcc4058f643b8b43d5565960a5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &158816444
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158816440}
+  m_CullTransparentMesh: 1
+--- !u!1 &590041651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 590041654}
+  - component: {fileID: 590041653}
+  - component: {fileID: 590041652}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &590041652
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590041651}
+  m_Enabled: 1
+--- !u!20 &590041653
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590041651}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &590041654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590041651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1617537428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381942, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Text
+      value: "Poezia \u201ETestament\u201D reprezint\u0103 o foaie de parcurs pentru
+        urma\u0219i, care se succed \xEEn ritmul vie\u021Bii, f\u0103c\xE2nd loc
+        genera\u021Biilor viitoare, \xEEns\u0103 care se alimenteaz\u0103 din trecutul
+        na\u021Biunii. Un trecut - care doar prin voin\u021B\u0103 \u0219i fermitate
+        \xEEn ac\u021Biuni se poate preschimba \xEEntr-un viitor mai bun, \xEEns\u0103,
+        odat\u0103 l\u0103sat la \xEEnt\xE2mplare, r\u0103m\xE2ne a fi unul cu serioase
+        accente de degradare social\u0103.\r\n\r\n\r\n\u201CTestament\u201D de Tudor
+        Arghezi face parte din seria artelor poetice moderne ale literaturii rom\xE2ne.
+        \xCEn acela\u0219i curent modernist am putea incadra \u0219i  \u201DEu nu
+        strivesc corola de minuni a lumii\u201D de Lucian Blaga \u0219i \u201DJoc
+        secund\u201D de Ion Barbu. Modernismul este un curent literar ce se manifest\u0103
+        la sf\xE2r\u015Fitul sec. al XlX-lea p\xE2n\u0103 la mijlocul secolului al
+        XX-lea, desemnat ca opusul tradi\u0163ionalismului interbelic. Se manifest\u0103
+        ca un fenomen de ruptur\u0103 fa\u0163\u0103 de vechile formule estetice
+        \u015Fi \xEEnsumeaz\u0103 toate curentele post-romantice, ca simbolismul,
+        expresionismul, curentele avangardiste. \xCEnceputurile ideologiei moderniste
+        se datoreaz\u0103 criticului Eugen Lovinescu, conduc\u0103torul revistei
+        \u201ESbur\u0103torul\u201D \u015Fi al societ\u0103\u0163ii cu acela\u015Fi
+        nume, care lanseaz\u0103 direc\u0163iile de modernizare ale literaturii rom\xE2ne.
+        Lovinescu nume\u015Fte modern orice form\u0103 novatoare a crea\u0163iei
+        artistice, astfel modernismul poate fi conceput ca un factor de progres \xEEn
+        vederea sincroniz\u0103rii cu literatura european\u0103 a vremii. Aceast\u0103
+        sincronizare se realizeaz\u0103 pe baza imita\u0163iei \xEEn concordan\u0163\u0103
+        cu spiritul veacului. Evolu\u0163ia culturii nu se mai realizeaz\u0103 pe
+        baza unor forme mo\u015Ftenite, ci mai ales prin \xEEmprumutarea de forme
+        noi care se dezvolt\u0103 pe fond propriu rom\xE2nesc. \xCEn vederea moderniz\u0103rii
+        literaturii rom\xE2ne, Lovinescu propune ca poezia s\u0103 evolueze de la
+        epic spre liric, tematica operelor literare s\u0103 fie inspirat\u0103 de
+        via\u0163a citadin\u0103, s\u0103 se intelectualizeze poezia.\r\n\r\nPoezia
+        \u201ETestament\u201D prefa\u021Beaz\u0103 volumul de debut al autorului
+        \u201ECuvinte potrivite\u201D, ap\u0103rut \xEEn 1927.\r\n\r\nTitlul vrea
+        s\u0103 sugereze mesajul , tradi\u0163ia, mo\u015Ftenirea spiritual\u0103,
+        pe care o genera\u0163ie o las\u0103 altei genera\u0163ii. El semnific\u0103
+        treapta pe care o urc\u0103 poetul dup\u0103 un lung trecut de trud\u0103
+        \u015Fi suferin\u0163\u0103 al genera\u0163iilor. \u201ETestament\u201D este
+        nu numai limbajul sacru al omenirii, dar \u015Fi cel dator s\u0103 realizeze
+        comunicarea intre genera\u0163ii care nu se vor intilni niciodat\u0103 altfel.
+        El implete\u015Fte problema prototipului uman cu mitul mor\u0163ii, cu ritualul
+        na\u0163ional.\r\n\r\nTema poeziei o reprezinta creatia literara in ipostaza
+        de mestesug, creatie lasata ca mostenire unui fiu spiritual - \xEEmbr\u0103c\xE2nd
+        forma unei \u201Dc\u0103r\u021Bi\u201D. Textul poetic fiind conceput ca un
+        monologal eroului literar.\r\n\r\n\u201ETestament\u201D este o medita\u0163ie,
+        deoarece este o specie a genului liric care exprim\u0103, cu mijloace artistice,
+        reflec\u0163ii asupra existen\u0163ei. Accentul se pune pe sentimente \u015Fi
+        lirismul se imbin\u0103 cu reflec\u0163ia filozofic\u0103. Autorul este \u2013
+        in acela\u015Fi timp \u2013 poet \u015Fi filozof. Poezia apare ca o  imbinare
+        a unei profunde g\xEEndiri cu o vibrant\u0103 expresie emo\u0163ional\u0103
+        \u015Fi se incepe cu un pretext al medita\u0163iei, iar in partea a doua
+        se prezint\u0103 g\xEEndurile \u015Fi sentimentele poetului fa\u0163\u0103
+        de cele inf\u0103\u0163i\u015Fate. Este utilizat\u0103 pe larg antiteza,
+        iar tema este dezvoltat\u0103 de Tudor Arghezi printr-o continu\u0103 c\u0103utare
+        a unei defini\u0163ii poetice a conceptelor de poet \u015Fi poezie. Sunt
+        prezente citeva prototipuri: P\u0103rintele (poetul), Fiul (cititorul), Str\u0103bunul,
+        Dumnezeu, St\u0103p\xEEnul, Domni\u0163a , realiza\u0163i printr-o tipizare
+        simbolic\u0103.\r\n\r\nOpera dat\u0103 - este o art\u0103 poetic\u0103 modern\u0103,
+        pentru c\u0103 prezint\u0103 o tripl\u0103 problematic\u0103, specific\u0103
+        liricii moderne: transfigurarea socialului \xEEn artistic, estetica ur\xE2tului
+        \u015Fi raportul dintre inspira\u021Bie \u0219i actul de crea\u021Bie.\r\n\r\nCompozi\u0163ional,
+        poezia are trei secven\u0163e poetice, prima suger\xE2nd leg\u0103tura dintre
+        poet \u015Fi urma\u015Fi, a doua prezint\u0103 rolul estetic \u015Fi social
+        al poeziei, iar a treia secven\u0163\u0103 con\u0163ine definirea operei
+        artistice.\r\n\r\nPrin vocativul \u201Dfiule\u201D, poetul intelege o intreaga
+        generatie de tineri care are datoria de a prelua aceasta zestre culturala,
+        \u201Dcartea\u201D devenind treapta dintre genera\u021Bii.\r\n\r\nPoetul
+        este un c\u0103ut\u0103tor, un deschiz\u0103tor de drumuri , iar poezia este
+        o cale, un drum, o treapt\u0103: \u201EPrin r\xEEpi \u015Fi gropi ad\xEEnci,/
+        Suite de b\u0103tr\xEEnii mei pe br\xEEnci\u201D.\r\n\r\nPoetul este un centru
+        al universului, poezia este o sintez\u0103 intre con\u0163inut \u015Fi form\u0103:
+        \u201ESlova de foc \u015Fi slova f\u0103urit\u0103/ \xCEmp\u0103rechiate-n
+        carte se m\u0103rit\u0103\u201D.\r\n\r\nCartea, crea\u0163ia artistic\u0103
+        este \u015Fi mesagerul durerii, de aceea datoria, misiunea poetului este
+        s\u0103 scrie despre suferin\u0163ele \u015Fi durerile trecutului. Cartea,
+        astfel, va r\u0103zbuna suferin\u0163ele trecutului, tot ceea ce au \xEEndurat
+        str\u0103mo\u015Fii \u201EBiciul r\u0103bdat se- ntoarce \xEEn cuvinte\u201D;
+        \u201E\u015Ei d\xE2nd \xEEn v\xE2rf\u2026 / Rodul durerii\u2026\u201D Poezia
+        devine astfel un document spiritual, dar \u015Fi unul social care m\xE2ng\xE2ie
+        \u015Fi alin\u0103, pedepse\u015Fte \u015Fi r\u0103zbun\u0103.\r\n\r\nArghezi
+        introduce \xEEn literatura rom\xE2n\u0103 estetica ur\xE2tului, concept pe
+        care \xEEl preia de la scriitorul fran\xADcez Charles Baudelaire. Prin unicul
+        s\u0103u volum de po\xADezie, Florile r\u0103ului, Baudelaire l\u0103rge\u015Fte
+        conceptul de frumos, integr\xE2ndu-i \xEEn\u0163elegerea r\u0103ului, a ur\xE2tului.
+        Arghezi, la r\xE2ndul lui, consider\u0103 c\u0103 orice aspect al realit\u0103\u0163ii,
+        indiferent c\u0103 este frumos sau ur\xE2t, sublim sau grotesc, poate constitui
+        material poetic: \u201EDin bube, mucegaiuri \u015Fi noroi/ Iscat-am frumuse\u0163i
+        \u015Fi pre\u0163uri noi.\u201D \r\n\r\nDe-a lungul timpului omenirea a evoluat
+        de la munca fizic\u0103 la cea intelectual\u0103, cartea fiind, a\u015Fadar,
+        o oglind\u0103 a evolu\u0163iei. Pentru accentuarea valorii c\u0103r\u0163ii
+        \u015Fi al efortului pe care l-a f\u0103cut \u015Fi el, recurge la o serie
+        de antiteze: cuvintele folosite \xEEn trecut pentru \xEEndemnul vitelor el
+        le-a transformat \xEEn \u201Ecuvinte potrivite\u201D care sunt capabile s\u0103
+        exprime frumosul artistic prin poezie. Cuv\xE2ntul, devenit instrument poetic
+        este \xEEnnobilat prin poezie: \u201Ele-am pref\u0103cut \xEEn versuri \u015Fi-n
+        icoane\u201D ; \u201Ef\u0103cui din zdren\u0163e muguri \u015Fi coroane\u201D;
+        \u201Eveninul str\xE2ns l-am preschimbat \xEEn miere\u201D. Prin aceste versuri
+        este sugerat programul estetic al lui Arghezi, eul liric afirm\xE2nd c\u0103
+        \u015Fi ur\xE2tul \xEE\u015Fi are frumuse\u0163ile ei, poate deveni material
+        poetic, surs\u0103 de inspira\u0163ie. Poetul, prin munca \u015Fi efortul
+        depus reu\u015Fe\u015Fte s\u0103 transforme ur\xE2tul \xEEn frumos artistic
+        exprim\xE2nd ideea c\u0103 adev\u0103rata art\u0103 este purificatoare.\r\n\r\nPoezia,
+        metaforizat\u0103 printr-o domni\u0163\u0103 care sufer\u0103, ofer\u0103
+        posibilitate genera\u0163iei viitoare s\u0103 cunoasc\u0103 trecutul, poetul
+        devine \u201Erobul\u201D care transmite prin munca lui grea cititorilor (\u201EDomnului\u201D)
+        valorile adev\u0103rate prin crea\u0163iile sale."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+--- !u!1 &1617537429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 1617537428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1617537430 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121821, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 1617537428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617537429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &1617537431 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 1617537428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1617537432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617537429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

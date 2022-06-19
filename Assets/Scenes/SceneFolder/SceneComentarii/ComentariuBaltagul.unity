@@ -1,0 +1,700 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &539330852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381941, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -247.60878
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381942, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Text
+      value: "Romanul este specia genului epic in proz\u0103, de dimensiuni ample,
+        cu o ac\u021Biunecomplex\u0103 care se desf\u0103\u0219oar\u0103 pe mai multe
+        planuri narative, cu personaje ale c\u0103ror personalit\u0103\u021Bi sunt
+        larg individualizate. Perioada interbelic\u0103 reprezint\u0103 \xEEn literaturarom\xE2n\u0103
+        o remarcabil\u0103 perioad\u0103 de dezvoltare prin l\u0103rgirea orizonturilor
+        tematice \xEEnromane, cuprinz\xE2nd diferite medii sociale \u0219i problematici
+        complexe.Opera literar\u0103 \u201CBaltagul\u201D, scris\u0103 de Mihail
+        Sadoveanu \xEEn 1930, reprezint\u0103 unroman interbelic, poli\u021Bist \u0219i
+        de dragoste, monografic spa\u021Biului de munte arhaic, undevia\u021Ba este
+        ritmat\u0103 de tradi\u021Bii \u0219i obiceiuri, oamenii tr\u0103ind dup\u0103
+        reguli nescrise, p\u0103str\xE2ndastfel comuniunea lor cu natura, un roman
+        considerat de Perpessicius \u201Cromanul unuisuflet de munteanc\u0103\u201D.Titlul
+        reprezint\u0103 un substantiv comun, articulat hot\u0103r\xE2t, configur\xE2nd
+        un simbolbisemic: semnificativ pentru lumea p\u0103storilor, dar \u0219i
+        individual, totem, \xEEnso\u021Bindmaturizarea lui Gheorghi\u021B\u0103,
+        care \xEE\u0219i \xEEncepe c\u0103l\u0103toria ini\u021Biatic\u0103 av\xE2nd
+        asupra lui unbaltag binecuv\xE2ntat de preotul rural, o arm\u0103 a crimei
+        \u0219i un instrument justi\u021Biar,amintind de labrys, secure cu dou\u0103
+        t\u0103i\u0219uri, poten\u021B\xE2nd dimensiunea mitic\u0103 a diegezei.Motto-ul
+        operei apare la \xEEnceput \u0219i const\u0103 \xEEn versurile \u201CSt\u0103p\xE2ne,
+        st\u0103p\xE2ne,/Maicheam\u0103 \u0219-un c\xE2ne\u2026\u201D, anticip\xE2nd
+        raportarea controversat\u0103 a textului sadovenianasupra baladei populare
+        \u201CMiori\u021Ba\u201D. Sadoveanu, \xEEn calitate de arhitect al operei,dozeaz\u0103
+        informa\u021Bia \xEEn discursul naratorului pentru a-l provoca pe cititor
+        s\u0103 p\u0103trund\u0103 \xEEn universul fic\u021Bional printr-o re\u021Bea
+        de simboluri, confirmat\u0103 ulterior prin dinamicaepic\u0103 propriu-zis\u0103,
+        \xEEn final readuc\xE2ndu-l \xEEn real cu sentimentul armoniei textuale.Incipitul
+        const\u0103 intr-o sociogonie despre munteni, o poveste pe care o spuneauneori
+        personajul Nechifor Lipan la nun\u021Bi \u0219i \u201Ccum\u0103trii\u201D,
+        despre r\xE2nduiala \u0219i semnulfiec\u0103rui neam, ajung\xE2nd \xEEn cele
+        din urm\u0103 la muntean, \u201CDomnul Dumnezeu\u201Dconsider\xE2ndu-I chinui\u021Bi
+        (\u201CDar voi, n\u0103c\u0103ji\u021Bilor, de ce a\u021Bi \xEEnt\xE2rziat?\u201D).
+        Din spuselemuntenilor, lectorul poate observa o parte din via\u021Ba aspr\u0103
+        a a\u0219azisului neam, menits\u0103 cutreiere domol mun\u021Bii cu oile
+        \u0219i cu asinii. Fiind ultimii, ace\u0219tia primesc doar o\u201Cinim\u0103
+        u\u0219oar\u0103\u201D \u0219i femei \u201Cfrumoase \u0219i iubite\u201D,
+        numi\u021Bi \xEEn capitolul 10 \u201Clocuitorii ace\u0219tiade sub brad\u201D,
+        \u0219i considera\u021Bi foarte muncitori (\u201CIu\u021Bi \u0219i nestatornici
+        ca apele\u201D). Legeafundamental\u0103 a acestei lumi este r\xE2nduiala,
+        iar moartea lui Nechifor Lipanpresupune o enigm\u0103, faptul care abate
+        \xEEnt\xE2mpl\u0103rile fire\u0219ti ale vie\u021Bii de la acest circuitprestabilit.
+        \xCEntreaga ac\u021Biune a romanului se supune \xEEndeplinirii \u0219i respect\u0103rii
+        acesteir\xE2nduieli, configur\xE2nd o rela\u021Bie macrocosmos-microcosmos
+        care trebuie restabilit\u0103. I.Lotman afirm\u0103 \xEEn lucrarea \u201CStudii
+        de tipologie a culturii\u201D c\u0103 \u201Cindicele \xEEnalt desemiotizare
+        a mitului face ca omul mitic s\u0103 tr\u0103iasc\u0103 printre semne, care
+        trimit, \xEEns\u0103,la o semnifica\u021Bie unic\u0103. Istoria este absent\u0103.\u201D.
+        De asemenea, G. C\u0103linescu consider\u0103c\u0103 \u201C\xEEntr-o societate
+        de tip arhaic, rezolvarea zbuciumului \xEEn mit este foarte normal\u0103\u201D.
+        \xCEn satul de munte M\u0103gura Tarc\u0103ului, Vitoria Lipan, \xEEngrijorat\u0103
+        de \xEEnt\xE2rziereaso\u021Bului plecat la Dorna pentru a cump\u0103ra oi,
+        trimite prin preotul rural Daniel oscrisoare adresat\u0103 fiului Gheorghi\u021B\u0103,
+        pe care-l cheam\u0103 acas\u0103, inten\u021Bion\xE2nd s\u0103-ltrimit\u0103
+        \xEEn c\u0103utarea p\u0103rintelui. Pe l\xE2nga absen\u021Ba \xEEndelungat\u0103
+        a so\u021Bului, o declan\u0219are aconflictului interior o mai reprezint\u0103
+        \u0219i visul femeii, \xEEn care \xEEl vede pe b\u0103rbat pe un\r\n\r\n\r\ncal,
+        travers\xE2nd o ap\u0103 cu fa\u021Ba \xEEntoars\u0103 spre apus \u201CL-am
+        visat r\u0103u, trec\xE2nd c\u0103lare oap\u0103 neagr\u0103\u201D). O vizit\u0103
+        la vr\u0103jitoarea satului, baba Maranda, completeaz\u0103dimensiunea ritualic\u0103
+        a unei existen\u021Be ancorate-n mitic \u0219i \xEEn supersti\u021Bii. Eroina
+        sedecide s\u0103-l inso\u021Beasc\u0103 pe b\u0103iat (\u201Cva g\u0103si
+        \u0219i un mijloc ca mintea ei s\u0103 ajute \u0219i bra\u021Bul luis\u0103
+        lucreze\u201D), dupa ce \xEEl vede sfios \u0219i nesigur.O prim\u0103 scen\u0103
+        simbolic\u0103 este ritualul plec\u0103rii la drum al Vitoriei \u0219i a
+        luiGheorghi\u021B\u0103, ce const\u0103 \xEEn diferite etape, ceremonie ce
+        demonstreaz\u0103 leg\u0103tura str\xE2ns\u0103a muntenilor cu Dumnezeu \u0219i
+        via\u021Ba lor religioas\u0103. Drume\u021Bia este planificat\u0103 prinpreg\u0103tirea
+        spiritual\u0103 printr-un post de 12 vineri (\u201CMai stau p\xE2n\u0103
+        ce g\u0103tesc de postitcele dou\u0103sprezece vineri\u201D), ca \xEEn a
+        \u0219aptea vineri s\u0103 preg\u0103teasc\u0103 material plecarea,aleg\xE2nd
+        drumul la Piatra \u0219i la m\u0103n\u0103stirea Bistri\u021Ba (\u201CEra
+        \xEEns\u0103 \xEEntr-a \u0219aptea vinere depost c\xE2nd Vitoria hot\u0103r\xE2se
+        [\u2026] un drum la Piatra \u0219i la m\u0103n\u0103stirea Bistri\u021Ba\u201D),
+        v\xE2nz\xE2ndpentru a face rost de bani produse. Deoarece aceast\u0103 c\u0103l\u0103torie
+        va reprezenta pentruGheorghi\u021B\u0103 o drume\u021Bie care \xEEl va des\u0103v\xE2r\u0219i
+        spiritual \u0219i care va determina maturizarealui, articul\xE2nd caracterul
+        de Bildungsroman al operei, Vitoria \xEEi prezint\u0103 misiunea dea-l c\u0103uta
+        pe tat\u0103l s\u0103u ca pe o \xEEndatorire sacr\u0103, c\u0103l\u0103uzit\u0103
+        de divinit\u0103\u021Bi: \u201CDe acu\u2019 trebuies\u0103 te ar\u0103\u021Bi
+        b\u0103rbat. Eu nu am alt sprijin \u0219i am nevoie de bra\u021Bul t\u0103u.\u201D.
+        Cei doi poposescla slujba de sear\u0103 a m\u0103n\u0103stirii , credin\u021Ba
+        religioas\u0103 juc\xE2nd un rol esen\u021Bial \xEEn via\u021Bamuntenilor
+        deoarece biserica reprezint\u0103 singura autoritate a lumii arhaice (\u201CSf\xE2nta
+        Ana o privi dintr-o dat\u0103 prin fum de lum\xE2n\u0103ri \u0219i munteanca
+        \xEEngenunche \u0219i-i s\u0103rut\u0103m\xE2na.\u201D). Las\u0103 gospod\u0103ria
+        \xEEn grija argatului Mitrea \u0219i o duce pe Minodora lam\u0103n\u0103stirea
+        V\u0103ratic \u0219i pleaca la drum \xEEmpreun\u0103 cu Gheorghi\u021B\u0103
+        \u0219i cu negustorulDavid, accentu\xE2ndu-se zbuciumul l\u0103untric (\u201Cera
+        plin\u0103 de g\xE2nduri, de patim\u0103 \u0219i dedurere\u201D), (\u201CAv\xE2nd
+        \xEEntr-\xE2nsa \u0219tiin\u021Ba mor\u021Bii lui Lipan \u0219i cr\xE2ncen\u0103
+        durere\u201D). \xCEntregul periplu \u201Cse desf\u0103\u0219oar\u0103 \xEEn
+        acord cu semnele naturii, pe care Vitoria le \xEEn\u021Belege \u0219i le
+        respect\u0103\u201D. La Borca \xEEnt\xE2lnesc un botez \u0219i la Cruci o
+        nunt\u0103,reprezent\xE2nd succesiunea momentelor esen\u021Biale \xEEn via\u021Ba
+        cre\u0219tin\u0103, ce completeaz\u0103simbolistica drumului, preg\u0103tind
+        astfel refacerea echilibrului \xEEn final. \xCEn popasul de laVatra Dornei,
+        femeia afl\u0103 c\u0103 Nechifor a cump\u0103rat trei sute de oi, dup\u0103
+        care a v\xE2nduto sut\u0103 altor doi ciobani, al\u0103turi de care a plecat
+        spre Neagra. Semnele naturiiconfirm\u0103 intui\u021Bia Vitoriei: \u201CV\xE2ntul
+        a contenit. Semnul era v\u0103dit. Mai \xEEnainte nu puteatrece.\u201D, aceasta
+        av\xE2nd o idee despre loca\u021Bia so\u021Bului \u201CAici, \xEEntre Sabasa
+        \u0219i Suha,trebuia s\u0103 g\u0103seasc\u0103 ea cheia adev\u0103rului\u201D.
+        \xCEi g\u0103se\u0219te c\xE2inele, Lupu, la o gospod\u0103rie,iar eroina
+        are confirmarea l\u0103untric\u0103 a restabilirii echilibrului \u201CDin
+        \xEEntunericul lui, pentru \xEEnt\xE2ia oar\u0103, Lipan se \xEEntorsese
+        ar\u0103t\xE2ndu-\u0219i fa\u021Ba.\u201D.O alt\u0103 scen\u0103 simbolic\u0103
+        este descoperirea r\u0103m\u0103\u0219i\u021Belor lui Nechifor, un\u201C\r\nDescensus
+        ad inferos\r\n\u201D pentru cele trei personaje. Femeia \xEEl g\u0103se\u0219te
+        cu ajutorulc\xE2inelui, observ\xE2nd o moarte violent\u0103 \u201Coase risipite
+        albeau \u021B\u0103r\xE2na, c\u0103p\u0103\u021B\xE2na eraspart\u0103 de
+        baltag\u201D. Fiind anticipat\u0103 \xEEnc\u0103 dinainte moartea so\u021Bului,
+        Vitoria \xEE\u0219icontroleaz\u0103 suferin\u021Ba dup\u0103 ce \xEEl strig\u0103
+        pe decedat dupa numele ini\u021Bial s\u0103u ini\u021Bial, \u0219i \xEEncepe
+        ritualul de r\xE2nduial\u0103 a mor\u021Bilor (\u201CCu grab\u0103, dar f\u0103r\u0103
+        lacrimi, femeia f\u0103cu ceadint\xE2i r\xE2nduial\u0103\u201D), spun\xE2ndu-i
+        lui Gheorghi\u021B\u0103 s\u0103 p\u0103zeasc\u0103 lum\xE2narea aprins\u0103
+        so\u021Buluis\u0103 nu se sting\u0103, \xEEn timp ce ea pleac\u0103 s\u0103
+        anun\u021Be autorit\u0103\u021Bile. Gheorghi\u021B\u0103 \xEEn\u021Belege
+        \xEEntr-un final situa\u021Bia (\u201Cabia acum \xEEn\u021Belegea c\u0103
+        acolo zace tat\u0103l lui\u201D), incapabil s\u0103 \xEElpriveasc\u0103 (\u201Cprivea
+        lumina f\u0103cliei\u201D). Cadrul simbolic reprezint\u0103 rena\u0219terea
+        lui Nechifor Lipan prin fiul s\u0103u, care \xEE\u0219i \xEEncheie drumul
+        ini\u021Biatic, tat\u0103l devenind astfel umbrab\u0103iatului, o transcenden\u021B\u0103
+        direct\u0103 a identit\u0103\u021Bii \u201CS\xE2ngele \u0219i carnea lui
+        Nechifor Lipanse \xEEntorceau asupra lui \xEEn pa\u0219i, \xEEn zboruri,
+        \xEEn chem\u0103ri.\u201D. Aceast\u0103 scen\u0103 este\r\n \r\nconsiderat\u0103
+        de Alexandru Paleologu ca o camuflare a motivului \u201Ccobor\xE2rii \xEEn
+        infern\u201D.Naratorul prezint\u0103 peisajul ca fiind \u201Cun loc a\u0219a
+        de str\xE2mt, a\u0219a de singuratic, a\u0219a dedosit\u201D, un t\u0103r\xE2m
+        asem\u0103n\u0103tor infernului, unde d\u0103inuie moartea \u0219i singur\u0103tatea,atribute
+        asem\u0103n\u0103toare unui labirint. \xCEn discu\u021Bia cu subprefectul
+        Anastasie Balmez, Vitoria \xEEi strecoar\u0103 cu abilitateam\u0103nuntul
+        c\u0103 muntenii nu efectuau tranzac\u021Biile dec\xE2t \xEEn prezen\u021Ba
+        unui martor. Lapraznicul lui Nechifor, aceasta desf\u0103\u0219oar\u0103
+        \xEEn fa\u021Ba celor doi (Calistrat Bogza \u0219i IlieCu\u021Bui) scenariul
+        crimei, Nicolae Manolescu consider\xE2nd c\u0103 \u201CVitoria \xEEi adun\u0103
+        peprotagoni\u0219ti la praznic, ca Hamlet, la spectacol, \u0219i se folose\u0219te
+        de acest scenariu cas\u0103 smulg\u0103 m\u0103\u0219tile\u201D. Dup\u0103
+        ce Bogza sf\xE2r\u0219e\u0219te cu g\xE2tul sf\xE2\u0219iat de Lupu \u0219i
+        de loviturade baltag a lui Gheorghi\u021B\u0103, se restabile\u0219te echilibrul.
+        \xCEn concluzie, opera literar\u0103 \u201CBaltagul\u201D, scris\u0103 de
+        Mihail Sadoveanu \xEEn 1930,reprezint\u0103 un roman poli\u021Bist de dragoste,
+        monografic spa\u021Biului de munte, unde via\u021Baeste ritmat\u0103 de tradi\u021Bii
+        \u0219i obiceiuri, oamenii tr\u0103ind dup\u0103 reguli nescrise, p\u0103str\xE2ndastfel
+        comuniunea lor cu natura."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+--- !u!224 &539330853 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 539330852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &539330854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 539330852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &539330855 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121821, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 539330852}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539330854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &539330856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539330854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &726301940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 726301941}
+  - component: {fileID: 726301944}
+  - component: {fileID: 726301943}
+  - component: {fileID: 726301942}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &726301941
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726301940}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.41666663, y: 0.41666663, z: 0.41666663}
+  m_Children: []
+  m_Father: {fileID: 539330853}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -375.00003, y: 213.00006}
+  m_SizeDelta: {x: 136.1987, y: 54.5977}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &726301942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726301940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.6313726}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.30588236}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 726301943}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 539330855}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: backPlaySceneComentariuBaltagul
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &726301943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726301940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5fb46dbcc4058f643b8b43d5565960a5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &726301944
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726301940}
+  m_CullTransparentMesh: 1
+--- !u!1 &944705524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 944705527}
+  - component: {fileID: 944705526}
+  - component: {fileID: 944705525}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &944705525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944705524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &944705526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944705524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &944705527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944705524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1756818583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1756818586}
+  - component: {fileID: 1756818585}
+  - component: {fileID: 1756818584}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1756818584
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756818583}
+  m_Enabled: 1
+--- !u!20 &1756818585
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756818583}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1756818586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756818583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

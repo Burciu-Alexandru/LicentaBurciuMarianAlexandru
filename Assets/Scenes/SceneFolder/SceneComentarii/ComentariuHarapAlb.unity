@@ -1,0 +1,766 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &43811521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 43811522}
+  - component: {fileID: 43811525}
+  - component: {fileID: 43811524}
+  - component: {fileID: 43811523}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &43811522
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43811521}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.41666663, y: 0.41666663, z: 0.41666663}
+  m_Children: []
+  m_Father: {fileID: 1047645695}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -375.00003, y: 213.00006}
+  m_SizeDelta: {x: 136.1987, y: 54.5977}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &43811523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43811521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.6313726}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.30588236}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 43811524}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1047645694}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: backPlaySceneComentariuHarapAlb
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &43811524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43811521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5fb46dbcc4058f643b8b43d5565960a5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &43811525
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43811521}
+  m_CullTransparentMesh: 1
+--- !u!1 &642399851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 642399854}
+  - component: {fileID: 642399853}
+  - component: {fileID: 642399852}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &642399852
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642399851}
+  m_Enabled: 1
+--- !u!20 &642399853
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642399851}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &642399854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642399851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1047645692
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381942, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Text
+      value: "Specie a prozei populare (orale) sau culte, basmul este o nara\u0163iune
+        obiectiv\u0103 de mic\u0103 \xEEntindere, ilustr\xE2nd un conflict moral,
+        de tipul Bine / R\u0103u, rezolvat \xEEn mod fabulos, cu un final fericit,
+        ilustrat de triumful Binelui. Numele speciei, provenit din vechiul slavon
+        basn\u012D\xB8 \u201Escornire, n\u0103scocire\u201D, ca \u015Fi formulele
+        de \xEEnceput \u015Fi de sf\xE2r\u015Fit, subliniaz\u0103 caracterul de fic\u0163iune.\r\nSpecia
+        a exercitat o influen\u0163\u0103 timpurie asupra literaturii scrise, c\u0103reia
+        basmul i\u2011a oferit un model de organizare a nara\u0163iunii. \xCEn felul
+        acesta a luat na\u015Ftere un dublet al basmului popular numit, spre a marca
+        distinc\u0163ia, basm cult, \xEEn care forma mo\u015Ftenit\u0103 prin tradi\u0163ie
+        se p\u0103streaz\u0103, dar suport\u0103 transform\u0103ri \xEEn func\u0163ie
+        de personalitatea creatoare care\u2011l remodeleaz\u0103.\r\nConsiderat\u0103
+        o capodoper\u0103, nara\u0163iunea Povestea lui Harap\u2011Alb (publicat\u0103
+        \xEEn \u201EConvorbiri literare\u201D, 1877) porne\u015Fte evident de la
+        un model al basmului popular, dar construc\u0163ia epic\u0103 este original
+        articulat\u0103, ca un bildungsroman, ca o suit\u0103 de \xEEnt\xE2mpl\u0103ri
+        care modeleaz\u0103 un erou.\r\nCa \xEEn orice basm popular, nara\u0163iunea
+        are un singur fir epic realizat prin \xEEnl\u0103n\u0163uirea mai multor
+        motive de surs\u0103 folcloric\u0103, centrale fiind: tema, superioritatea
+        mezinului, c\u0103l\u0103toria dificil\u0103, vicle\u015Fugul, probele, impostorul,
+        uzurparea identit\u0103\u0163ii, personajele auxiliare, pe\u0163irea, instrumentele
+        magice (smicele, ap\u0103 vie, ap\u0103 moart\u0103), moartea \u015Fi re\xEEnvierea
+        eroului, nunta. Toate acestea concretizeaz\u0103 tema: triumful binelui.
+        Geografia fabuloas\u0103 este sugerat\u0103 de mun\u0163ii care se bat \xEEn
+        capete. La acestea se adaug\u0103 limbajul cu m\u0103rcile specifice stilului
+        oral, popular.\r\nSubiectul este asem\u0103n\u0103tor subiectelor cunoscute
+        din basmele populare, respect\xE2nd articula\u0163iile (organizarea) cunoscute.\r\nExpozi\u0163iunea
+        prezint\u0103 personajele \u015Fi o \u201Ecriz\u0103\u201D, legat\u0103 de
+        obliga\u0163ia unui crai de a trimite pe cel mai vrednic dintre fii la fratele
+        s\u0103u, \xCEmp\u0103ratul Verde, spre a\u2011i urma la tron. Numai cel
+        mic se dovede\u015Fte, \xEEn urma unor probe, demn de a porni la drum. Coordonatele
+        spa\u0163io\u2011temporale sunt specifice, ac\u0163iunea fiind plasat\u0103
+        \xEEntr\u2011un spa\u0163iu \u015Fi \xEEntr\u2011un timp trecut, nedefinite:
+        \u201Eera odat\u0103 \xEEntr\u2011o \u0163ar\u0103\u201D; \u201Etocmai la
+        o margine a p\u0103m\xE2ntului\u201D\u2026\r\nIntriga care sus\u0163ine conflictul
+        p\xE2n\u0103 la cap\u0103t o constituie \xEEnc\u0103lcarea sfatului tat\u0103lui
+        \u015Fi c\u0103derea, prin vicle\u015Fug, \xEEn robia sp\xE2nului, care se
+        substituie adev\u0103ratului \xEEmp\u0103rat.\r\nDesf\u0103\u015Furarea ac\u0163iunii
+        urm\u0103re\u015Fte modul cum fiul craiului \xEEndepline\u015Fte sarcinile
+        periculoase (adev\u0103rate probe ini\u0163iatice) primite de la sp\xE2n,
+        care i le porunce\u015Fte spre a\u2011\u015Fi pierde via\u0163a, \u015Fi
+        rezolvarea lor cu ajutorul calului \u015Fi al Sfintei Duminici, aducerea
+        fetei de \xEEmp\u0103rat, de care se \xEEndr\u0103goste\u015Fte.\r\nPunctul
+        culminat \xEEl constituie respingerea sp\xE2nului de c\u0103tre fata de \xEEmp\u0103rat,
+        care dezv\u0103luie adev\u0103rata identitate a lui Harap\u2011Alb, \u015Fi
+        moartea eroului.\r\nDeznod\u0103m\xE2ntul este fericit, impostorul este ucis
+        de c\u0103tre calul n\u0103zdr\u0103van, \xEEn timp ce fata \xCEmp\u0103ratului
+        Ro\u015F, cu ajutorul apei vii, \xEEl readuce la via\u0163\u0103 pe Harap\u2011Alb.
+        Nunta celor doi \u015Fi succesiunea la tron constituie un final fericit tipic
+        basmelor populare.\r\nCa orice basm, Povestea lui Harap\u2011Alb este conceput
+        s\u0103 ilustreze un conflict moral, care opune binele \u2011 reprezentat
+        de eroul ac\u0163iunii \u2011 \u015Fi r\u0103ul \u2011 reprezentat de sp\xE2n
+        \u015Fi \xCEmp\u0103ratul Ro\u015F.\r\nO \xEEntreag\u0103 suit\u0103 de personaje
+        secundare se grupeaz\u0103 \xEEn jurul personajului principal: Fl\u0103m\xE2nzil\u0103,
+        Setil\u0103, Geril\u0103, Ochil\u0103, P\u0103s\u0103ri\u2011L\u0103\u0163i\u2011Lungil\u0103,
+        Sf. Duminic\u0103, craiul \u015Fi fra\u0163ii mai mari, \xCEmp\u0103ratul
+        Verde \u015Fi fetele sale, fata \xCEmp\u0103ratului Ro\u015F. Al\u0103turi
+        de ace\u015Ftia apar fiin\u0163e fabuloase: calul n\u0103zdr\u0103van, cr\u0103iasa
+        albinelor, regina furnicilor, ursul \u015Fi cerbul, care se situeaz\u0103
+        unele al\u0103turi de el, altele \xEEmpotriva lui. Prin aceste personaje
+        se produce alunecarea ac\u0163iunii \xEEn fabulos, deoarece, prin atributele
+        lor, nu mai apar\u0163in realului.\r\nSemnifica\u0163ia nara\u0163iunii este
+        ilustrat\u0103 de motivele centrale, str\u0103vechi: drumul \u015Fi probele.
+        Drumul \u015Fi c\u0103l\u0103toria sunt simbolic asociate cunoa\u015Fterii.
+        \xCEnainte de plecare, eroul este confirmat prin \xEEncerc\u0103ri menite
+        s\u0103\u2011i dezv\u0103luie o serie de \xEEnsu\u015Firi: sentimentul onoarei,
+        milostenia, capacitatea de a distinge esen\u0163a de aparen\u0163\u0103,
+        st\u0103p\xE2nirea de sine, asumarea trecutului. O dat\u0103 plecat, eroul
+        are de trecut alt\u0103 serie de probe, care\u2011i scot \xEEn eviden\u0163\u0103
+        limitele, dar \u015Fi calit\u0103\u0163ile. \xCEnc\u0103lcarea sfatului p\u0103rintesc,
+        neascultarea, refuzul experien\u0163ei celor v\xE2rstnici constituie o limit\u0103
+        a eroului \u015Fi cauza suferin\u0163elor lui. El are totu\u015Fi capacitatea
+        de a\u2011\u015Fi asuma eroarea. Obiectul cunoa\u015Fterii devine astfel
+        nu numai lumea, ci \u015Fi propriul mod de a fi, raportul just cu valorile:
+        binele, frumosul, adev\u0103rul. Cunoa\u015Fterea devine astfel ini\u0163iere,
+        cerut\u0103 de rolul pe care urmeaz\u0103 s\u0103\u2011l joace, acela de
+        \xEEmp\u0103rat, r\u0103spunz\u0103tor de soarta supu\u015Filor. C\u0103derea
+        \xEEn robia sp\xE2nului apare astfel ca necesar\u0103 \u015Fi simbolic\u0103.
+        Tot astfel, probele dificile: aducerea salatelor din gr\u0103dina ursului
+        \u015Fi a pietrelor din coarnele cerbului, echivaleaz\u0103 cu intrarea \xEEn
+        posesia marilor taine: a p\u0103m\xE2ntului (ad\xE2ncului), respectiv a cerului
+        (\xEEnaltului). Posesia lor face din Harap\u2011Alb un adev\u0103rat erou.
+        De acum \xEEncolo nu va mai face gre\u015Feli. Dar trebuie s\u0103 \xEEndeplineasc\u0103
+        cea mai complex\u0103 prob\u0103, aducerea miresei, o nou\u0103 c\u0103l\u0103torie,
+        care, cu ajutorul cr\u0103iesei albinelor, a reginei furnicilor \u015Fi a
+        tovar\u0103\u015Filor cu care se \xEEnso\u0163e\u015Fte, devine un triumf.
+        Suita experien\u0163elor prin care trece eroul se \xEEncheie \xEEn mod semnificativ
+        cu moartea \u015Fi re\xEEnvierea lui. Harap\u2011Alb moare de fapt \xEEn
+        vechea lui personalitate, nedes\u0103v\xE2r\u015Fit\u0103, supus\u0103 erorii,
+        spre a rena\u015Fte simbolic eliberat de r\u0103ul care\u2011l st\u0103p\xE2nise,
+        deplin st\u0103p\xE2n pe sine, cunosc\u0103tor, ini\u0163iat \xEEn tainele
+        vie\u0163ii \u015Fi ale mor\u0163ii.\r\nOriginalitatea basmului. De\u015Fi
+        respect\u0103 \xEEntru totul schema narativ\u0103 a basmului popular, prin
+        tem\u0103 \u015Fi motive, prin semnifica\u0163iile ini\u0163iatice, prin
+        aspectul formal, schematic (coordonate spa\u0163io\u2011temporale de tip
+        fabulos, formule de \xEEnceput, mediane \u015Fi de sf\xE2r\u015Fit, limbaj
+        popular \u015Fi oral), Creang\u0103 este un autor profund original \xEEn
+        raport cu modelul, a c\u0103rui form\u0103 o reorganizeaz\u0103, printr\u2011o
+        mutare \u015Fi o ad\xE2ncire a semnifica\u0163iei \u2011 care face din basm
+        un mic bildungsroman \u2013, at\xE2t prin tratarea realist\u0103 a fantasticului,
+        c\xE2t \u015Fi printr\u2011o accentuare a oralit\u0103\u0163ii.\r\nCreang\u0103
+        devine original prin abunden\u0163a detaliilor specifice, prin insisten\u0163a
+        asupra aspectului particular, prin nuan\u0163area mi\u015Fc\u0103rilor, a
+        gesturilor, a vie\u0163ii suflete\u015Fti, personajele \u2011 \xEEn special
+        eroul \u2011 c\u0103p\u0103t\xE2nd individualitate uman\u0103. De\u015Fi
+        surprinde prin n\u0103vala \xEEnt\xE2mpl\u0103rilor, naratorul este atent
+        la ceea ce este particular, la detaliul specific \u2011 evocarea dezam\u0103girii
+        suflete\u015Fti a tat\u0103lui, teama \u015Fi frica lui Harap\u2011Alb, \xEEnt\xE2lnirile
+        cu grote\u015Ftii lui \xEEnso\u0163itori, toate abund\u0103 \xEEn detalii
+        de atmosfer\u0103, care nu constituie o tr\u0103s\u0103tur\u0103 a basmului
+        popular, unde nara\u0163iunea se men\u0163ine cu prec\u0103dere \xEEn direc\u0163ia
+        epicului.\r\nOriginal\u0103 este \u015Fi m\xE2nuirea dialogului, care nu
+        se mai limiteaz\u0103, ca \xEEn basmul popular, la o simpl\u0103 marcare
+        a stilului indirect \u015Fi direct, ci, ca \xEEn teatru, cap\u0103t\u0103
+        o func\u0163ie dubl\u0103: dezvoltarea ac\u0163iunii \u015Fi caracterizarea
+        personajelor, care tr\u0103iesc \u015Fi se individualizeaz\u0103 prin limbaj.\r\nMai
+        ales modul \xEEn care este tratat fantasticul distinge basmul lui Creang\u0103
+        de modelul popular. \xCEn primul r\xE2nd, ponderea fantasticului de tip fabulos
+        este restr\xE2ns\u0103 la c\xE2teva aspecte (motive): calul n\u0103zdr\u0103van,
+        ursul, cerbul solomonit (vr\u0103jit), Sf. Duminic\u0103, albinele \u015Fi
+        furnicile, mun\u0163ii care se bat \xEEn capete, apa vie, la care se pot
+        ad\u0103uga tr\u0103s\u0103turile \u201Efaunei\u201D fabuloase a \xEEnso\u0163itorilor,
+        altfel umani. Mai ales ace\u015Ftia din urm\u0103, Geril\u0103, Setil\u0103
+        etc. reprezint\u0103, altfel dec\xE2t \xEEn basme, o proiec\u0163ie fabuloas\u0103
+        a unei tipologii umane, caricaturale, grote\u015Fti, alegorii ale unor patimi
+        omene\u015Fti, primare sau nu: foamea, frigul, setea, capacitatea de iluzionare
+        (P\u0103s\u0103ri\u2011L\u0103\u0163i\u2011Lungil\u0103, un \u201Ev\xE2n\u0103tor\u201D
+        ciudat, o proiec\u0163ie original\u0103 a amintirii \u015Famanului \u2011
+        cel care se putea \xEEn\u0103l\u0163a la cer, sau Ochil\u0103, cel care vede
+        lumea altfel dec\xE2t ceilal\u0163i, \u201Epe dos\u201D, ceea ce permite
+        asocierea lui cu poetul). Comportamentul lor, mai ales \xEEn timpul nop\u0163ii
+        petrecute \xEEn casa de aram\u0103, aminte\u015Fte de tovar\u0103\u015Fii
+        de gazd\u0103 ai lui Nic\u0103, din timpul petrecut la \u015Fcoala de catihe\u0163i
+        din F\u0103lticeni. Nici R\u0103ul nu mai este reprezentat la modul fabulos,
+        Sp\xE2nul \u015Fi \xCEmp\u0103ratul Ro\u015F fiind doar oameni \u201E\xEEnsemna\u0163i\u201D,
+        simbolic demoniza\u0163i. Comportarea personajelor este uman\u0103, familiar\u0103,
+        \u0163\u0103r\u0103neasc\u0103, amintind de Humule\u015Ftii autorului. \xCEn
+        special personajul principal are un comportament uman, sufer\u0103 pentru
+        ru\u015Finea tat\u0103lui, pl\xE2nge c\xE2nd acesta \xEEl dojene\u015Fte,
+        sau c\xE2nd se simte cople\u015Fit de greutatea poruncilor sp\xE2nului, se
+        \u201Eolic\u0103ie\u015Fte\u201D, se bate cu m\xE2na peste gur\u0103, uimit
+        de \u201Esmintitul\u201D Ochil\u0103, are o fire deschis\u0103 \u015Fi glumea\u0163\u0103,
+        intervine ca un bun gospodar \xEEn ajutorul albinelor etc.\r\nPe scurt, se
+        poate spune c\u0103 fantasticul are \xEEn basmul lui Creang\u0103 ca tr\u0103s\u0103turi
+        distinctive tratarea realist\u0103, prin umanizarea personajelor, \xEEn special
+        a personajului principal, c\u0103ruia \xEEi surprinde o psihologie \xEEn
+        devenire \u2011 \xEEn basmul popular eroul reprezint\u0103 doar ilustrarea
+        unei func\u0163ii, f\u0103r\u0103 s\u0103 se individualizeze psihologic \u2011
+        \u015Fi prin localizarea \xEEntr\u2011un timp \u015Fi spa\u0163iu determinabile
+        geografic \u015Fi istoric: cur\u0163ile \xEEmp\u0103r\u0103te\u015Fti amintesc
+        de gospod\u0103riile \u0163\u0103r\u0103ne\u015Fti. Toate acestea fac din
+        Povestea lui Harap\u2011Alb un mic \u201Eroman de aventuri\u201D, sau \u201Ede
+        formare\u201D, cu subiect fabulos. Personajul, p\xE2n\u0103 a fi recunoscut
+        ca erou \xEEn adev\u0103ratul sens al cuv\xE2ntului trebuie s\u0103 dovedeasc\u0103
+        vrednicia, curajul, loialitatea, puterea, \xEEn\u0163elepciunea, cucerit\u0103
+        prin suferin\u0163\u0103, calit\u0103\u0163i necesare at\xE2t rolului pentru
+        care este preg\u0103tit, c\xE2t \u015Fi \xEEn via\u0163\u0103 \xEEn general.\r\nOralitate,
+        stil, limbaj, umor. Precum \xEEn povestirea oral\u0103, \xEEn care naratorul
+        se adreseaz\u0103 direct ascult\u0103torului, \xEEn timpul relat\u0103rii,
+        Creang\u0103 folose\u015Fte de c\xE2teva ori procedeul adres\u0103rii directe
+        c\u0103tre un ascult\u0103tor imaginar: \u201EDar, ia s\u0103 vedem, ce se
+        mai petrece la mas\u0103, dup\u0103 ducerea lui Harap Alb?\u201D, \u201E...
+        Dumnezeu s\u0103 ne \u0163ie, c\u0103 cuv\xE2ntul din poveste \xEEnainte
+        mult mai este\u201D, \u201E\u015E\u2011apoi chiti\u0163i c\u0103 numai \xEEn
+        arc se \xEEncheia tot me\u015Fte\u015Fugul \u015Fi puterea omului aceluia?\u201D
+        etc.\r\nNota dominant\u0103 a stilului este umorul, caracteristic\u0103 \xEEntregii
+        sale opere, Creang\u0103 fiind o fire jovial\u0103, cu verv\u0103, care \u015Ftie
+        \u015Fi poate s\u0103 st\xE2rneasc\u0103 veselia. Mijloacele prin care este
+        realizat sunt diverse: exprimarea mucalit\u0103 (printr\u2011o \xEEntors\u0103tur\u0103
+        surprinz\u0103toare a frazei: \u201Es\u0103 tr\u0103iasc\u0103 trei zile
+        cu cea de\u2011alalt\u0103ieri\u201D); Setil\u0103 e \u201En\u0103scut \xEEn
+        zodia ra\u0163elor \u015Fi \xEEmpodobit cu darul suptului\u201D; ironia (\u201Ebun\u0103tatea
+        lui cea nepomenit\u0103 \u015Fi milostenia lui cea neauzit\u0103\u201D);
+        poreclele \u015Fi apelativele caricaturale (\u0163apul cel ro\u015F, Buzil\u0103,
+        mangosi\u0163i...); zeflemeaua (\u201Ete\u2011a\u015F v\xE2r\xEE \xEEn s\xE2n,
+        dar nu \xEEncapi de urechi...\u201D); scene comice (intrarea pe\u0163itorilor
+        \xEEn curtea \xEEmp\u0103ratului); citate \u015Fi expresii de duh (\u201ED\u0103\u2011i
+        cu cinstea, s\u0103 pear\u0103 ru\u015Finea\u201D). Acestea din urm\u0103
+        constituie ceea ce s\u2011a numit erudi\u0163ia paremiologic\u0103[1] a naratorului,
+        Creang\u0103 st\u0103p\xE2nind un material lingvistic uimitor, fiind \u015Fi
+        capabil s\u0103\u2011l utilizeze la momentul potrivit, ca expresie a unei
+        \xEEn\u0163elepciuni milenare. Proverbele sunt introduse, \xEEn bun\u0103
+        tehnic\u0103 a citatului, prin expresia \u201Evorba ceea\u201D, \u201Evorba
+        aia\u201D, \u201Evorba \u0103luia\u201D.\r\nCreang\u0103 pare interesat s\u0103
+        atrag\u0103 aten\u0163ia asupra virtu\u0163ilor oralit\u0103\u0163ii, subliniind\u2011o
+        \xEEn diverse moduri, cu mijloacele scrierii, ceea ce face ca oralitatea
+        s\u0103 fie o pur\u0103 iluzie acustic\u0103, pe care autorul o construie\u015Fte
+        \u015Fi o \xEEntre\u0163ine prin procedee sistematice: rime \u015Fi asonan\u0163e
+        (\u201Efeciori de ghind\u0103/f\u0103ta\u0163i \xEEn tind\u0103\u201D); \u201Evestitul
+        Ochil\u0103, frate cu Orbil\u0103, v\u0103r primar cu Chioril\u0103, nepot
+        de sor\u0103 lui P\xE2ndil\u0103, din sat de la Chitil\u0103, peste drum
+        de Nimeril\u0103, ori din t\xE2rg de la S\u0103\u2011l\u2011ca\u0163i, megie\u015F
+        cu C\u0103uta\u0163i \u015Fi de urm\u0103 nu\u2011i mai da\u0163i\u201D;
+        numeroase interjec\u0163ii : \u201Edurai\u2011vurai\u201D, \u201Eteleap\u2011teleap\u201D;
+        verbe imitative (onomatopeice): \u201Ea morm\u0103i\u201D, \u201Ea bodog\u0103ni\u201D,
+        \u201Ea hodorogi\u201D etc. Impresia este sporit\u0103 de expresiile populare
+        \u015Fi proverbe.\r\nO alt\u0103 tr\u0103s\u0103tur\u0103 specific\u0103,
+        este homerismul, exagerarea, proiectarea \xEEn enorm, gigantizarea (nu numai
+        \xEEn descrierea \xEEnso\u0163itorilor lui Harap\u2011Alb).\r\nAd\u0103ugate
+        umorului, toate procedeele imprim\u0103 nara\u0163iunii o puternic\u0103
+        originalitate. De altfel, prin utilizarea constant\u0103 a dativului etic,
+        povestitorul se implic\u0103 puternic, teatral, \xEEn mod subiectiv, \xEEntr\u2011o
+        nara\u0163iune de tip obiectiv. Desele formul\u0103ri de tipul: \u201Emi
+        \u0163i\u2011o \xEEn\u015Ffac\u0103 de coad\u0103\u201D devin marca stilistic\u0103
+        a particip\u0103rii afective a povestitorului \u015Fi a solicit\u0103rii
+        intense a unei particip\u0103ri de acela\u015Fi tip din partea cititorului.\r\n\xCEn
+        concluzie, basmul Povestea lui Harap\u2011Alb, oper\u0103 de profund\u0103
+        inspira\u0163ie \u015Fi rezonan\u0163\u0103 folcloric\u0103, reprezint\u0103
+        o crea\u0163ie literar\u0103 profund original\u0103, prin modul personal,
+        creator \xEEn care Creang\u0103 utilizeaz\u0103 un material autentic folcloric.
+        Dovada simpl\u0103 o constituie \xEEns\u0103\u015Fi \xEEncercarea de repovestire
+        a basmului, care, pentru a reda \xEEntreaga lui savoare, umorul inconfundabil,
+        ar trebui memorat. Repovestirea doar prin respectarea schemei epice duce
+        la s\u0103r\u0103cirea lui, de fapt la uzurpare. Basmul acesta trebuie citit
+        ca orice oper\u0103 cult\u0103."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+--- !u!1 &1047645693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 1047645692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1047645694 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121821, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 1047645692}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047645693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &1047645695 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 1047645692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1047645696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047645693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1325770990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1325770993}
+  - component: {fileID: 1325770992}
+  - component: {fileID: 1325770991}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1325770991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325770990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1325770992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325770990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1325770993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325770990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,754 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &391236750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 391236753}
+  - component: {fileID: 391236752}
+  - component: {fileID: 391236751}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &391236751
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391236750}
+  m_Enabled: 1
+--- !u!20 &391236752
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391236750}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &391236753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391236750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1265306840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937716068713072, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717001381942, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Text
+      value: "\u201CLuceafarul\u201D este un poem filozofic, in care tema romantica
+        a conditiei omului de geniu capata stralucire desavarsita. Problema geniului
+        este ilustrata de poet prin prisma filozofiei lui Schopenhauer, potrivit
+        careuia cunoasterea lumii este accesibila numai omului superior, singurul
+        capabil sa depaseasca sfera subiectivitatii, sa se depaseasca pe sine, inaltandu-se
+        in sfera obiectivului. Spre deosebire de el, omul obisnuit nu se poate ridica
+        deasupra concretetii vietii, nu-si poate depasi conditia subiectiva.\r\n\r\nPoemul
+        \u201CLuceafarul\u201D are 392 de versuri, structurate in 98 de catrene,
+        fiind dominat de existenta a doua planuri: unul universal-cosmic si altul
+        uman-terestru, care converg unul catre celalalt si s einterfereaza uneori
+        in cele patru tablouri, gandite ca entitati distincte. Pe parcursul intregului
+        poem sunt evidentiate ipostazele omului de geniu in raport cu ipostazele
+        ideii de femeie.\r\n\r\nCompozitia poemului este simetrica, in cele patru
+        tablouri manifestandu-se armonios palnul terestru si cel cosmic, astfel:
+        tablourile intai si patru imbina planul universal-cosmic si cel uman-terestru,
+        tabloul al doilea este dominat de palnul uman-terestru, iar al treile de
+        planul universal-cosmic.\r\n\r\nIn ceea ce priveste ipostazele geniului,
+        in tabloul intai omul superior este simbolizat de Luceafar, ca astru apartinand
+        planului cosmic, in al doile este numai aspiratia spirituakla pentru Catalina,
+        in al treilea este intruchipat de Hyperion, iar in ultimul este omul superior
+        sugerat de Luceafar/Hyperion, ca symbol al lumii superioare, datasat de pragmatismul
+        si efemeritatea oamenilor obisnuiti, muritori. Ipostazele feminine sunt illustrate
+        de unicitatea fetei de imparat, in tablul intai de Catalina, femeia pamanteana,
+        care are identitate si nume, in cel de al doilea, in tabloul al treilea ideea
+        de femeie este simbolizata de aspiratia geniului catre iubirea ideala, iar
+        in ultimul ea devine o muritoare oarecare, o anonima, un \u201Cchip de lut\u201D.\r\n\r\n\r\n\r\n\r\nTabloul
+        intai este o poveste fantastica de dragoste, deoarece se manifesta intre
+        doua finite apartinand unor lumi diferite, cea terestra si cea cosmica si
+        tocmai de aceea este si o iubire imposibila. Asadar, planul universal-cosmic
+        se intrepatrunde armonios cu cekl uman-terestru, geniul este astrul ceresc
+        in ipostaza Luceafarului, iar fata de imparat este unica si , in raport cu
+        luceafarul, aproape o egala. Poate tocmai a ales Eminescu o fiinta fantastica,
+        de basm, singura care ar putea transcede in lumea inalta a spiritualitatii
+        geniului.\r\n\r\nIncipitul este o forma initiala de basm, atestand astfel
+        filonul folkloric al poemului: \u201Ca fost odata ca-n povesti,/ A fost ca
+        niciodata,/ Din rude mari imparatesti/ O prea frumoasa fata\u201D. Epitetul
+        care defineste frumusetea neasemuita a fetei, ce provenea \u201Cdin rude
+        mari imparatesti\u201D, este un superlative popular, \u201Cprea frumoasa\u201D,
+        fiind cunoscut faptul ca Eminescu avea o grija deosebita in alegerea cuvintelor
+        cu mare forta de expresie.\r\n\r\nStrofa urmatoare ilustreaza unicitatea
+        fetei de imparat, prin comparatii sugestive pentru a accentua trasaturile
+        care o fac cu totul aparte in lume, aproape incluzand-o in spiritualitatea
+        superioara a geniului: \u201CSi era una la parinti/ Si mandra-n toate cele,/
+        Cum e Fecioara intre sfinti/ Si luna intre stele\u201D.\r\n\r\nFereastra
+        constituie un spatiu de comunicare intre cele doua lumi, terestra si cosmica,
+        metafora intalnita si in alte poezii eminesciene: \u201CDin umbra falnicelor
+        bolti/ Ea pasul si-l indrapta/ Langa fereastra, unde-n colt/ Luceafarul asteapta\u201D.\r\n\r\nPrivindu-l
+        fascinate in fiecare noapte- \u201CIl vede azi, il vede mani\u201D- tanara
+        se indragosteste de astru, \u201Cel iar, privind de saptamani,/ Ii cade draga
+        fata\u201D. Intalnirea celor doi indragostiti are loc in oglinda, ca spatiu
+        de reflexive si prin intermediul visului: \u201CEa il privea cu un suras,/
+        El tremura-n oglinda,/ Caci o urma adanc in vis/ De suflet sa se prinda\u201D.\r\n\r\nChemarea
+        Luceafarului de catre fata este patetica, incarcata de dorinta si de forta
+        magica, strofa fiind construita ca o formula cu puteri supranaturale: :Cobori
+        in jos, luceafar bland,/ Alunecand pe-o raza,/ patrunde-n casa si in gand/
+        S viata-mi lumineaza!\u201D.\r\n\r\nLuceafarul s eintrupeaza mai intai sunb
+        infatisarea angelica a \u201Cunui tanar voievod\u201D, ca fiu al cerului
+        si al marii- :Iar cerul este tatal meu/ Si muma-mea e marea\u201D. Luceafarul
+        o cheama pe fata in lumea lui, oferindu-I statutul de stapana a intinderilor
+        de ape: \u201CO, vin! odorul meu nespus,/ Si lumea ta o lasa!/ Eu sunt luceafarul
+        de sus,/ Iar tu sa-mi fii mireasa\u201D.\r\n\r\nFata il refuza, simtandu-l
+        \u201Cstrain la vorba si la port\u201D, apartinand unei lumi necunoscute
+        ei, de care se teme: \u201COchiul tau ma-ngheata\u201D. Antitezele demonstreaza
+        ideea ca cei doi indragostiti apartin unor entitati diametral opuse, simbolizand
+        existenta vesnica si iminenta mortii: \u201CCaci eu sunt vie, tu esti mort\u201D.
+        Fata isi marturiseste neputinta de a accede spre cunoastere, accentuand imposibilitatea
+        formarii cuplului: \u201CDar ape calea ce-ai deschis/ N-oi merge niciodata\u201D.\r\n\r\nCa
+        in basmele populare, dupa trei zile si trei nopti, fata isi aminteste de
+        Luceafar in somn (mitul oniric) si ii adreseaza aceeasi chemare incarcate
+        de dorinte. Luceafarul se intrupeaza de aceasta data sub infatisare demonica,
+        un \u201Cmandru chip\u201D, nascut din soare si din noapte si vine in odaia
+        fetei cu un efort mai amre decat prima oara. Ii ofera lumea lui, cosmosul,
+        pe cerurile caruia ea va fi cea mai stralucitoare stea. Fata il refuza si
+        de aceasta data, desi frumusetea lui o influenteaza puternic: \u201C-O, esti
+        frumos, cum numa-n vis/ Un demon se arata\u201D. Metamorfozele Luceafarului
+        in cele doua intrupari, de inger si demon, ilustreaza mitul \u201CZburatorului\u201D,
+        preluat de Eminescu din mitologia populara autohtona.\r\n\r\n\r\n\r\nLucrare:
+        Sistemul circulator la om - inima, vasele de sange\r\nLucrare: Boala lui
+        parkinson\r\n\r\nIdeea apartenentei geniului la nemurire ca si statutul de
+        muritoare al fetei sunt exprimate prin antiteza dintre eternitae si efemeritate:
+        \u201C-Dar cum ai vrea sa ma cobor?/ Au nu-ntelegi u oare,/ Cum ca eu sunt
+        nemuritor,/ Si tu esti muritoare?\u201D. Fata insa nu poate accede in lumea
+        lui si nici nu-l poate intelege- \u201CDesi vorbesti pe inteles/ Eu nu te
+        pot pricepe\u201D-, de aceea ii cere sa devina el muritor, sa coboare el
+        in lumea ei, \u201CTut e coboara pe pamant,/ Fii muritor ca mine\u201D.\r\n\r\nPuterea
+        de sacrificiu in numele implinirii iubirii ideale este proprie numai geniului,
+        viziune romantica exprimata prin intensitatea sentimentului de iubire, care
+        duce la renuntarea la nemurire, \u201CDa ma voi naste din pacat/ Primind
+        o alta lege;/ Cu vecinicia sunt legat,/ Ci voi sa ma dezlege\u201D. Superlativul
+        popular absolute folosit in versul \u201CCat te iubesc de tare\u201D sugerand
+        transpunerea fetei in conditia obiectului unic al pasiunii erotice simtite
+        de Luceafar si dorinta acestuia de cunaostere a lumii pamantene. El accepta
+        ideea \u201Cpacatului originar\u201D din mitologia crestina, si, implicit,
+        dezlegarea de legile vesniciei.\r\n\r\nLuceafarul pleaca spre Demiurg pentru
+        ai cere acestuia dezlegarea de nemurire, \u201CS-a rupt din locul lui de
+        sus/ Pierind mai multe zile\u201D.\r\n\r\nTabloul al doilea este o idila
+        pastorala intre doua finite apartinand aceleiasi lumi. Cadrul naturii este
+        dominat de planul uman-terestru, fata se individualizeaza prin nume, Catalina,
+        si prin infatisare, iar Luceafarul este doar aspiratie spirituala, ideal.\r\n\r\nTabloul
+        incepe prin prezentarea lui Catalin, \u201Cviclean copil de casa\u201D, caruia
+        Eminescu ii face un scurt portret, in care tonul ironic este evident: \u201Cindraznet
+        cu ochii\u201D, cu \u201Cobrajei ca doi bujori\u201D si care o urmareste
+        :panditor: oe Catalina. Numele celor doi, Catalin si Catalina nu este intamplator
+        acelasi, deoarece ei sunt expornentiiindividuali ai aceeasi spete omenesti.
+        Intalnirea celor doi pamanteni reprezinta dragostea dintre un flacau si o
+        fata de la tara, o idila pastorala argumentata si prin limbaj si prin gesture:
+        \u201C-Dar ce vrei, mari, Catalin/ I-a dut\u2019 de-ti vezi de treaba\u201D.\r\n\r\nPrezenta
+        Luceafarului este ina cest tablou doar sugerata, ca aspiratie spirirtuala,
+        ca dorinta erotica ideala: \u201CO, de luceafarul din cer/ M-a prins un dor
+        de moarte\u201D.\r\n\r\nJocul drogostei ca ritual ce se manifesta in toate
+        poeziile erotice eminesciene este ilustrat de gesturile tandre, mangaietoare
+        pentru invatarea iubirii: \u201C-Daca nu stii, ti-as arata/ Din bob in bob
+        amorul [..] Si ochii tai nemiscatori/ Sub ochii mei ramaie../ [..], Cand
+        fata mea se pleaca-n jos,/ In sus ramai cu fata,/ [..] Cand sarutrandu-te
+        ma-nclin,/ Tu iarasi ma saruta\u201D.\r\n\r\nIdeea compatibilitatii celor
+        doua lumi este ilustrata foarte sugestiv, intr-un limbaj popular, cat se
+        poate de obisnuit: \u201CSi guraliv si de nimic/ Te-ai potrivi cu mine .
+        \u201D. Superioritatea geniului, in ipostaza Luceafarului, este constientizata
+        de Catalina, prin exprimarea propriei neputinte de a patrunde in lume aideilor
+        inalte: \u201CIn veci il voi iubi si- n veci/ Va ramanea departe . \u201D.\r\n\r\nTabloul
+        al treilea, numit si \u201Cdrumul cunoasterii\u201D, este dominat d epalnul
+        universal-cosmic, Luceafarul este Hyperion, iar fata este motivatia calatoriei,
+        simbolul iubirii ideale.\r\n\r\nPastelul cosmic, in care natura este fascinanta,
+        contine scurte referiri la ideea filozofica a timpului si a spatiului universal,
+        trimitand totodata si la geneza Universului: \u201CSi din a chaosului vai,/
+        Jur- imprejur de sine,/ Vedea, ca-n ziua cea dentai,/ Cum izvorau lumine\u201D.\r\n\r\n\r\n\r\nCalatoria
+        lui Hyperion spre Demiurg in spatiul intergalactic simbolizeaza un drum al
+        cunoasterii si totodata motivatia meditatie pe care Eminescu o face asupra
+        conditiei omului de geniu in raport cu oamenii obisnuiti, dar si cu idealul
+        spre care aspira acesta, prin lirica mastilor. Setea de cunaostere a omului
+        d egeniu- \u201Co sete care-l soarbe\u201D- face ca Hyperion sa-I ceara Demiurgului
+        dezlegarea de nemurire, in scopul de a descifra taina fericirii, prin implinirea
+        iubirii absolute, in numele careia este in stare de sacrificial supreme:
+        \u201CReia-mi al nemuririi nimb/ Si focul din privire,/ Si pentru toate da-mi
+        in schimb/ O ora de iubire . \u201D.\r\n\r\nDemiurgul ii refuza lui Hyperion
+        dorinta, desconsiderand statutul de muritor al omului, care nu-si poate determina
+        propriul destin, ci se bazeaza numai pe noroc, in antiteza cu omul de geniu,
+        capabil de a implini idealuri inalte, care-l fac nemuritor, dar si neinteles
+        de societate: \u201CEi doar au stele cu noroc/ Si prigoniri de soarte,/ Noi
+        nu avem nici timp nici loc,/ Si nu cunoastem moarte\u201D.\r\n\r\nIdeea dualitatii
+        existentei ciclice, aceea ca existenta umana este alcatuita din viata si
+        moarte, este unul din argumentele Demiurgului in a-l convinge pe Hyperion
+        sa renunte la ideea de a devein muritor: \u201CCaci toti de nasc spre a muri/
+        Si mor spre a se naste\u201D.\r\n\r\nDemiurgul respinge cu fermitate solicitarea
+        lui Hyperion, \u201Cmoartea nu se poate . \u201D, exprimandu-si profundul
+        dispret pentru aceasta lume superficiala, meschina, dominate de egoism si
+        care nu merita sacrificial omului de geniu: \u201CSi pentru cine vrei sa
+        mori?/ intoarce-te, te- ndreapta/ Spre-acel pamant ratacitor/ Si vezi ce
+        te asteapta\u201D.\r\n\r\nTablul al patrulea, imbina, ca si primul, planul
+        universal-cosmic cu cel uman-terestru, dand romanului o simetri perfecta:
+        geniul redevine astru, iar fata isi pierde unicitatea, numele, frumusetea,
+        infatisarea, ipostaza femeii in acest tablou fiind aceea de muritoare oarecare,
+        de \u201Cchip de lut\u201D.\r\n\r\nIntorcandu-se \u201Cin locul lui menit
+        pe cer\u201D, Luceafarul priveste pe pamant si vede \u201Cdoi tineri singuri\u201D,
+        intr-un dezlantuit joc al dragostei: \u201CO, lasa-mi capul meu pe san,/
+        Iubito sa se culce/ Sub raza ociului senin/ Si negrait de dulce\u201D. Fata
+        \u201Cimbatata de amor\u201D, adreseaza Luceafarului o chemare modificata,
+        formula nu mai este magica si accentueaza ideea ca omul obisnuit este supus
+        sortie, intamplarii, norocului, fiind incapabil de a se inalta la iubirea
+        absoluta, ideal care nu-I este accesibil: \u201C-Cobori in jos, luceafar
+        bland,/ Alunecand pe-o raza,/ Patrunde-n codru si in gand,/ Norocu-mi lumineaza!\u201D.\r\n\r\nEliberat
+        de patima iubirii, Luceafarul se detaseaza de lumea stramta, meschina, superficiala
+        si :nu mai cade ca-n trecut/ In mari din tot inaltul\u201D, exprimandu-si
+        profundul dispret fata de incapacitatea acestei lumi de a-si depasi limitele,
+        de a se ridica spre o viziune a ideilor superioare: \u201CCe-ti pasa tie,
+        chip d elut/ Dac- oi fie u sau altul?\u201D.\r\n\r\nFinalul poemului este
+        o sentinta in sens justitiar, in care antiteza dintre pronumele personal
+        de persoana I singular, \u201Ceu\u201D si a II-a plural, \u201Cvostru\u201D
+        semnifica esenta conflictului dintre etern si efemer, subliniind menirea
+        creatoare a geniului eliberat de aptima iubirii, de amagitoarele chemari
+        ale fericirii pamantesti, care este trecatoare si lipsita de profunzimea
+        sentimentului:\r\n\r\n\u201CTraind in cercul vostru stramt\r\n\r\nNorocul
+        va petrece,-\r\n\r\nCi eu in lumea mea ma simt\r\n\r\nNemuritor si rece.\u201D\r\n\r\nAtitudinea
+        detasata a Luceafarului din finalul poemului nu exprima o resemnare, ci este
+        o atitudine specifica geniului, rece, rationala, o detasare superioara care
+        nu mai permite un dialog intre cei doi, deaorece ei apartin unor lumi incompatibile
+        ce nu pot comunica, avand conceptii diferite despre iubire, ilustrand valoarea
+        suprema a idealului spre care poate aspira doar omul superior.\r\n\r\nSugestia
+        textului epico-liric se defineste prin complexitatea procedeelor artistice,
+        prin ineditul si varietatea stilului. Filonul folclorin si romantic al poemului
+        este atestat de cuvintele si expresiile populare, care dau un farmec aparte
+        limbajului artistic eminescian, prin ora;itatea exprimarii: \u201CIi cade
+        draga fata, \u201CIn orisicare seara\u201D, \u201CEa, imbatata de amor\u201D,
+        \u201CIa dut\u2019t de-ti vezi de treaba\u201D, etc.\r\n\r\nFiind un poem
+        epico-liric, \u201CLuceafarul\u201D contopeste, in mod firesc, ambele tipuri
+        de lirism. Lirismul subiectiv atesta prezenta marcilor poetice in textul
+        lyric si se concretizeaza prin numeroasele marci lexico-gramaticale ale verbelor
+        si pronumelor la persoana I, precum si prin adresarea directa, ale carei
+        marci lexico-gramaticale sunt verbele si pronumele la persoana a II-a: \u201Cvenii\u201D,
+        \u201Csa urmez\u201D, \u201Cprivesc\u201D, \u201Cas vrea\u201D, \u201Ceu\u201D,
+        \u201Cmea\u201D, \u201Cmeu\u201D, etc., \u201Ccobori\u201D, \u201Cesti\u201D,
+        \u201Cvorbesti\u201D,\u201Dfugi\u201D, \u201Cnu te mania\u201D, \u201Ctu\u201D,
+        \u201Cta\u201D, etc. marca a lirismului subiectiv este si vacativul substantivelor;
+        \u201Cluceafar bland\u201D, \u201Codorul meu nespus\u201D, \u201CCatalin\u201D,
+        \u201Ciubito\u201D, \u201Cchip de lut\u201D.\r\n\r\nDetasarea contemplative
+        a sinelui poetic defineste lirismul obiectiv prin multitudinea marcilor lexico-gramaticale
+        reprezentate de verbe si pronume la persoana a III-a: \u201Casteapta\u201D,
+        \u201Cse revarsa\u201D, \u201Cvenea\u201D, \u201Cajunge\u201D, \u201Ctraieste\u201D,
+        \u201Cel\u201D, \u201Cea\u201D, etc.\r\n\r\nPoemul \u201CLuceafarul\u201D
+        este cea mai inalta expresie a poeziei romanesti, deoarece reuneste toate
+        motivele, ideile fundamentale, categoriile lirice si mijloacele lui Eminescu,
+        poemul fiind intr-un fel si testamentul lui poetic, acela care lamureste
+        posteritatii chipul in care si-a conceput propriul destin\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+--- !u!1 &1265306841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121820, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 1265306840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1265306842 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121821, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 1265306840}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265306841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &1265306843 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3324937717607121819, guid: 69c389d01fe6a5e449df4cb758352070, type: 3}
+  m_PrefabInstance: {fileID: 1265306840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1265306844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265306841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0fe008564d13459141fa4167482fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1402420846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1402420847}
+  - component: {fileID: 1402420850}
+  - component: {fileID: 1402420849}
+  - component: {fileID: 1402420848}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1402420847
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402420846}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.41666663, y: 0.41666663, z: 0.41666663}
+  m_Children: []
+  m_Father: {fileID: 1265306843}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -375.00003, y: 213.00006}
+  m_SizeDelta: {x: 136.1987, y: 54.5977}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1402420848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402420846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.6313726}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.30588236}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1402420849}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1265306842}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: backPlaySceneComentariuLuceafaru
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1402420849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402420846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5fb46dbcc4058f643b8b43d5565960a5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1402420850
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402420846}
+  m_CullTransparentMesh: 1
+--- !u!1 &1866177956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1866177959}
+  - component: {fileID: 1866177958}
+  - component: {fileID: 1866177957}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1866177957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866177956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1866177958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866177956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1866177959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866177956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
