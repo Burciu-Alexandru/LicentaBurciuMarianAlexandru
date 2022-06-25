@@ -272,6 +272,11 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 17);
     }
+    
+    public void SpecialIntrebari13()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 25);
+    }
 
     public void BackToMenu()
     {

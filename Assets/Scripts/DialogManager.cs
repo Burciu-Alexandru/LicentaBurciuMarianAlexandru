@@ -9,21 +9,23 @@ public class DialogManager : MonoBehaviour
     public Image avataorulActorului;
     public Text numeleActorului;
     public Text mesajul;
+    public AudioSource mesajTextVorbit;
     public RectTransform backgorundBox;
-
-
     Mesaj[] mesajCurent;
     Actor[] actorCurent;
+    AudioSource[] audioCurent;
 
     int mesajActiv = 0;
     public static bool isActive = false;
-    public void openDialog (Mesaj[] mesaje,Actor[] actori)
+    public void openDialog (Mesaj[] mesaje,Actor[] actori, AudioSource[] audio)
     {
         mesajCurent = mesaje;
         actorCurent = actori;
+        audioCurent = audio;
         mesajActiv = 0;
         isActive = true;
         Debug.Log("Start conversatie" + mesaje.Length);
+        Debug.Log("mesaje"+ audio.Length);
         DisplyaMesaj();
     }
 
@@ -36,7 +38,10 @@ public class DialogManager : MonoBehaviour
         numeleActorului.text = actorToDisplay.name;
         avataorulActorului.sprite = actorToDisplay.avatarImg;
         backgorundBox.LeanScale(Vector3.one, 0.5f);
+        Debug.Log(mesajActiv);
+        startSunet(mesajActiv);
         AnimateTextColor();
+       
 
     }
 
@@ -59,6 +64,13 @@ public class DialogManager : MonoBehaviour
     {
         LeanTween.textAlpha(mesajul.rectTransform, 0, 0);
         LeanTween.textAlpha(mesajul.rectTransform, 1, 0.5f);
+    }
+
+    public void startSunet(int indexx)
+    {
+        audioCurent[indexx].Stop();  
+
+        audioCurent[indexx].Play();
     }
 
 

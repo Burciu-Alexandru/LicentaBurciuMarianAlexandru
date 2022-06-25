@@ -13,6 +13,7 @@ public class Manager : MonoBehaviour
 
     public void wrongAnswer()
     {
+        AudioScript.var.pornesteEfecteleDeSunet(1);
         ResetScreen.SetActive(true);
     }
 
@@ -32,6 +33,7 @@ public class Manager : MonoBehaviour
         }
         else
         {
+            AudioScript.var.pornesteEfecteleDeSunet(0);
             EndScreen.SetActive(true);
             Levels[currentLevel].SetActive(false);
         }
