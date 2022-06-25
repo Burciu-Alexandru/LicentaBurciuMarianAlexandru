@@ -902,7 +902,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: In ce an a fost scris romanul Enigma Otiliei?
+  m_Text: "\xEEn ce an a fost scris romanul Enigma Otiliei?"
 --- !u!222 &356053630
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5052,7 +5052,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Carui gen i apartine opera Enigma Otiliei?
+  m_Text: "C\u0103rui gen \xEEi apartine opera Enigma Otiliei?"
 --- !u!222 &1804423724
 CanvasRenderer:
   m_ObjectHideFlags: 0

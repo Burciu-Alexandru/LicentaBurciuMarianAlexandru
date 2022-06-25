@@ -982,7 +982,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: In ce an a fost scrisa opera Harap Alb?
+  m_Text: "\xCEn ce an a fost scris\u0103 opera Harap Alb ?"
 --- !u!222 &276304854
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4637,7 +4637,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Carui gen i apartine opera Harap Alb?
+  m_Text: "C\u0102rui gen \xEEi apartine opera Harap Alb?"
 --- !u!222 &1814427643
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -659,7 +659,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Carui gen i apartine opera Moara cu Noroc?
+  m_Text: "C\u0103rui gen \xEEi apartine opera Moara cu Noroc?"
 --- !u!222 &128889627
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3035,7 +3035,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: In ce an a fost scris romanul Ion?
+  m_Text: "\xCEn ce an a fost scris romanul Ion?"
 --- !u!222 &1388499472
 CanvasRenderer:
   m_ObjectHideFlags: 0
