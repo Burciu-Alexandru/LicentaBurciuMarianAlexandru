@@ -283,17 +283,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesaje:
   - actorID: 0
-    mesaj: Oh, buna Ana.
+    mesaj: "Oh, bun\u0103 Ana.\u0163"
     voceText: {fileID: 0}
   - actorID: 1
-    mesaj: Buna Ghita... am venit sa te vizitez, pentru ca nu ai mai trecut pe acasa
-      de ceva vreme
+    mesaj: "Bun\u0103 Ghi\u0163\u0103... am venit s\u0103 te vizitez, pentru c\u0103
+      nu ai mai trecut pe acas\u0103 de ceva vreme"
     voceText: {fileID: 0}
   - actorID: 0
-    mesaj: Da...pai am fost ocupat cu munca la han...
+    mesaj: "Da...p\u0103i am fost ocupat cu munca la han..."
     voceText: {fileID: 0}
   - actorID: 1
-    mesaj: 'Stiu.. dar cand ai timp vino si mai petrece timp si cu noi '
+    mesaj: "Stiu.. dar c\xE2nd ai timp vino si mai petrece timp si cu noi "
     voceText: {fileID: 0}
   - actorID: 0
     mesaj: Ok..
@@ -1925,33 +1925,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesaje:
   - actorID: 0
-    mesaj: Buna!
+    mesaj: "Bun\u0103!"
     voceText: {fileID: 0}
   - actorID: 1
-    mesaj: Salut. tu esti cel ce a cumparat recet hanul?
+    mesaj: "Salut. tu esti cel ce a cump\u0103rat recet hanul?"
     voceText: {fileID: 0}
   - actorID: 0
     mesaj: Da, de ce intrebi?
     voceText: {fileID: 0}
   - actorID: 1
-    mesaj: Ha, pai eu sunt Lica Samadaul, seful porcarilor si as vrea sa am o discutie
-      cu tine
+    mesaj: "Ha, pai eu sunt Lic\u0103 S\u0103m\u0103d\u0103ul, \u0219eful porcarilor
+      \u0219i a\u0219 vrea s\u0103 am o discu\u0163ie cu tine"
     voceText: {fileID: 0}
   - actorID: 0
-    mesaj: O discutie despre?..
+    mesaj: "O discu\u0163ie despre?.."
     voceText: {fileID: 0}
   - actorID: 1
-    mesaj: Pai as fi interesat de cine trece pe la han, si as vrea ca tu sa verific
-      persoanele si sa imi spui de fiecare data cand vin, cine a trecut pe aici
+    mesaj: "Pai a\u0219 fi interesat de cine trece pe la han, \u0219i a vrea ca tu
+      sa verific persoanele si sa imi spui de fiecare data cand vin, cine a trecut
+      pe aici"
     voceText: {fileID: 0}
   - actorID: 1
     mesaj: Ce zici?
     voceText: {fileID: 0}
   - actorID: 0
-    mesaj: Ok, dar de ce ai vrea sa sti asta?
+    mesaj: "Ok, dar de ce ai vrea sa \u0219ti asta?"
     voceText: {fileID: 0}
   - actorID: 1
-    mesaj: Asta nu e important, uite, o sa iti dau si o suma de bani
+    mesaj: "Asta nu e important, uite, o s\u0103 \xEE\u0163i dau \u0219i o sum\u0103
+      de bani"
     voceText: {fileID: 0}
   - actorID: 1
     mesaj: Ce zici, te bagi?
@@ -3439,7 +3441,7 @@ MonoBehaviour:
     mesaj: Buna ziua!
     voceText: {fileID: 0}
   - actorID: 0
-    mesaj: Buna ziua serife!
+    mesaj: "Buna ziua \u0219erife!"
     voceText: {fileID: 0}
   actori:
   - name: Ghita

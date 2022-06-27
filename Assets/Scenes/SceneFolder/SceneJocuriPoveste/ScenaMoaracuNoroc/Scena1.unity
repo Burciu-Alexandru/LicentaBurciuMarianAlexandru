@@ -1059,17 +1059,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesaje:
   - actorID: 0
-    mesaj: Mama soacra, vreau sa iti spun ca vreau sa cumpar hanul de la moar
+    mesaj: "Mama soacr\u0103, vreau s\u0103 \xEE\u0163i spun c\u0103 vreau s\u0103
+      cump\u0103r hanul de la moar\u0103"
     voceText: {fileID: 1813394278}
   - actorID: 0
-    mesaj: 'Vreau sa scap din saracie '
+    mesaj: "Vreau s\u0103 scap din saracie "
     voceText: {fileID: 210216632}
   - actorID: 1
     mesaj: "Omul s\u0103 fie mul\u0163umit cu s\u0103r\u0103cia sa, c\u0103ci, dac\u0103
       e vorba, nu bog\u0103\u0163ia ci lini\u015Ftea colibei tale te face fericit"
     voceText: {fileID: 2125813865}
   - actorID: 0
-    mesaj: Ok, dar tot o sa imi incerc norocu
+    mesaj: "Ok, dar tot o s\u0103 \xEEmi \xEEncerc norocu"
     voceText: {fileID: 1319541128}
   actori:
   - name: Ghita

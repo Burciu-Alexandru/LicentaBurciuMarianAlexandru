@@ -3054,16 +3054,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesaje:
   - actorID: 0
-    mesaj: (Sunt in mare belea din cauza lui Lica.. dar mi prea frica sa spun adevarul)
+    mesaj: "(Sunt \xEEn mare belea din cauza lui Lic\u0103.. dar mi prea frica s\u0103
+      spun adevarul)"
     voceText: {fileID: 0}
   - actorID: 1
-    mesaj: Domnul Ghita, unde ati fost in seara in care a fost jefuit arandasul
+    mesaj: "Domnul Ghi\u0163\u0103, unde a\u0163i fost \xEEn seara \xEEn care a fost
+      jefuit ar\xE2ndasul"
     voceText: {fileID: 0}
   - actorID: 0
-    mesaj: (0 sa mint ca sa scap...)
+    mesaj: "(0 s\u0103 mint ca s\u0103 scap...)"
     voceText: {fileID: 0}
   - actorID: 0
-    mesaj: Am fost ocasa..
+    mesaj: Am fost acasa..
     voceText: {fileID: 0}
   - actorID: 1
     mesaj: Ok

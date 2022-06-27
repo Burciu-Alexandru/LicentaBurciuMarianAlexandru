@@ -3964,16 +3964,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mesaje:
   - actorID: 0
-    mesaj: buna
+    mesaj: "bun\u0103"
     voceText: {fileID: 0}
   - actorID: 1
-    mesaj: Buna Lica !
+    mesaj: "Buna Lic\u0103 !"
     voceText: {fileID: 0}
   - actorID: 0
-    mesaj: Buna Ghita !
+    mesaj: "Buna Ghit\u0103 !"
     voceText: {fileID: 0}
   - actorID: 1
-    mesaj: Ce zici, ma lasi sa dansez si eu cu nevasta ta?
+    mesaj: "Ce zici, m\u0103 lasi s\u0103 dansez si eu cu nevasta ta?"
     voceText: {fileID: 0}
   - actorID: 0
     mesaj: (...)
@@ -3988,7 +3988,7 @@ MonoBehaviour:
     mesaj: ......
     voceText: {fileID: 0}
   - actorID: 1
-    mesaj: Auzi Ghita, ce zici, ne lasi si pe noi singuri?
+    mesaj: "Auzi Ghit\u0103, ce zici, ne lasi si pe noi singuri?"
     voceText: {fileID: 0}
   - actorID: 0
     mesaj: ...
