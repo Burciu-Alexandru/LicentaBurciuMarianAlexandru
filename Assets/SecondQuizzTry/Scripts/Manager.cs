@@ -5,11 +5,9 @@ using UnityEngine;
 public class Manager : MonoBehaviour
 {
 
-    public GameObject[] Levels;
+    public GameObject[] nivele;
     public GameObject ResetScreen,EndScreen; 
-
-    int currentLevel;
-
+    int LevelulCurent;
 
     public void wrongAnswer()
     {
@@ -24,18 +22,18 @@ public class Manager : MonoBehaviour
 
     public void correctAnswer()
     {
-        if(currentLevel + 1 != Levels.Length)
+        if(LevelulCurent + 1 != nivele.Length)
         {
-            Levels[currentLevel].SetActive(false);
+            nivele[LevelulCurent].SetActive(false);
 
-            currentLevel++;
-            Levels[currentLevel].SetActive(true);
+            LevelulCurent++;
+            nivele[LevelulCurent].SetActive(true);
         }
         else
         {
             AudioScript.var.pornesteEfecteleDeSunet(0);
             EndScreen.SetActive(true);
-            Levels[currentLevel].SetActive(false);
+            nivele[LevelulCurent].SetActive(false);
         }
     }
 
